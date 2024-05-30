@@ -6,9 +6,9 @@ export default function GetInTouch(){
         <section className="relative lg:py-24 py-16 bg-slate-50 dark:bg-slate-800" id="contact">
             <div className="container relative">
                 <div className="grid grid-cols-1 pb-6 text-center">
-                    <h3 className="font-semibold text-2xl leading-normal mb-4">Get in touch </h3>
+                    <h3 className="font-semibold text-2xl leading-normal mb-4">Contactanos </h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">This is just a simple text made for this unique and awesome template, you can replace it with any text.</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Este es solo un texto simple creado para esta plantilla única e impresionante; puedes reemplazarlo con cualquier texto.</p>
                 </div>
 
                 <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
@@ -41,7 +41,7 @@ export default function GetInTouch(){
                                             <textarea name="comments" id="comments" className="mt-2 w-full py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0" placeholder="Mensaje :"></textarea>
                                         </div>
                                     </div>
-                                    <button type="submit" id="submit" name="send" className="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white mt-2">Send Message</button>
+                                    <button type="submit" id="submit" name="send" className="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white mt-2">Enviar mensaje</button>
                                 </form>
                             </div>
                         </div>
