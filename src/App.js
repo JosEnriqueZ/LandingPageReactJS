@@ -13,7 +13,7 @@ import IndexSeven from './pages/index-seven';
 function App() {
   return (
     <Routes>
-      {/* <Route path='/' element={<Index/>}/> */}
+      {/* <Route path='/index-two' element={<Index/>}/> */}
       <Route path='/' element={<IndexTwo/>}/>
       {/* <Route path='/index-three' element={<IndexThree/>}/>
       <Route path='/index-four' element={<IndexFour/>}/>
