@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import blog1 from '../assets/images/blog/01.jpg'
-import blog2 from '../assets/images/blog/02.jpg'
+// import blog1 from '../assets/images/blog/01.jpg'
+import blog1 from '../assets/images/blog/01.png'
+// import blog2 from '../assets/images/blog/02.jpg'
+import blog2 from '../assets/images/blog/02.jpeg'
 import blog3 from '../assets/images/blog/03.jpg'
 
 export default function AgencyTab(){

@@ -6,8 +6,10 @@ import client4 from '../assets/images/team/04.jpg'
 import client5 from '../assets/images/team/05.jpg'
 import client6 from '../assets/images/team/06.jpg'
 
-import blog1 from '../assets/images/blog/01.jpg'
-import blog2 from '../assets/images/blog/02.jpg'
+// import blog1 from '../assets/images/blog/01.jpg'
+import blog1 from '../assets/images/blog/01.png'
+// import blog2 from '../assets/images/blog/02.jpg'
+import blog2 from '../assets/images/blog/02.jpeg'
 import blog3 from '../assets/images/blog/03.jpg'
 
 import company1 from '../assets/images/team/amazon.svg'
@@ -124,21 +126,21 @@ export const clientData = [
 export const blogData = [
     {
         image:blog1,
-        title:'Design your apps in your own way',
-        desc:'This is required when, for example, the final text is not yet available.',
-        date:'13th March 2023'
+        title:'Nuestra IMAGEN Nueva',
+        desc:'SILINGCORP Como parte de un grupo de grandes empresas mineras, transformamos nuestra imagen más actualizada y versátil. Para mostrar nuestra nueva filosofía de SUMA, la que compartimos TODOS dentro de la compañía y con nuestros clientes. ',
+        date:'01 de Junio del 2024'
     },
     {
         image:blog2,
-        title:'How apps is changing the IT world',
-        desc:'This is required when, for example, the final text is not yet available.',
-        date:'5th May 2023'
+        title:'SILINGCORP apuesta por la transformación digital e innovación',
+        desc:'La transformación digital de SILINGCORP es un esfuerzo conjunto de todas las áreas de la empresa y estamos seguros que dará mucho valor a los equipos y nos permitirá afianzar nuestro proceso de transformación digital.',
+        date:'25 de Mayo del 2024'
     },
     {
         image:blog3,
-        title:'Smartest Applications for Business',
-        desc:'This is required when, for example, the final text is not yet available.',
-        date:'19th June 2023'
+        title:'SILINGCORP sigue innovando en infraestructura',
+        desc:'«Esta adquisición refuerza nuestro compromiso con la excelencia operativa y la satisfacción de nuestros clientes. Los camiones Volvo FMX-R Max son conocidos por su durabilidad y rendimiento, lo que los convierte en la elección ideal para las exigencias de nuestro proyecto en Cerro Corona», comentó Luis Flores, Gerente General.',
+        date:'15 de Marzo del 2024'
     },
 ]
 
