@@ -1,4 +1,4 @@
-import { FiTrendingUp, FiDollarSign, FiCompass,FiCommand, FiBox, FiCamera, FiBell, FiMonitor } from '../assets/icons/vander'
+import { FiTrendingUp,FiRefreshCcw,FaFire, FiDollarSign, FiCompass,FiCommand, FiBox, FiCamera, FiBell, FiMonitor } from '../assets/icons/vander'
 import client1 from '../assets/images/team/01.jpg'
 import client2 from '../assets/images/team/02.jpg'
 import client3 from '../assets/images/team/03.jpg'
@@ -17,49 +17,65 @@ import company4 from '../assets/images/team/paypal.svg'
 import company5 from '../assets/images/team/shopify.svg'
 import company6 from '../assets/images/team/spotify.svg'
 
+import bg1 from '../assets/images/bg/1.jpg'
+import bg2 from '../assets/images/bg/2.jpg'
+
 export const servicesData = [
-    {
-        icon:FiTrendingUp,
-        title:'Grow Your Business',
-        desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
-    },
+    // {
+    //     icon:FiTrendingUp,
+    //     title:'Ingenieria de detalle',
+    //     desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
+    // },
     {
         icon:FiDollarSign,
-        title:'Drive More Sales',
+        title:'Edicion de Planos',
         desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
     },
     {
         icon:FiCompass,
-        title:'Handled By Expert',
-        desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
+        title:'Servicios de Mantenimiento de Planta',
+        desc:'Se brinda el mantenimiento preventivo y correctivo de los equipos de planta de acuerdo a los procedimientos establecidos por el fabricante y la empresa.'
     },
     {
-        icon:FiCommand,
-        title:'Discussion For Idea',
-        desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
+        icon:FaFire,
+        title:'Sistema contra incendios',
+        desc:'Se brinda el servicio de instalación y mantenimiento de sistemas contra incendios, de acuerdo a las normas y procedimientos establecidos por el fabricante y la empresa.'
     },
     {
         icon:FiBox,
-        title:'Web Design',
+        title:'Alquiler de camionetas',
         desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
     },
-    {
-        icon:FiCamera,
-        title:'Network Security',
-        desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
-    },
-    {
-        icon:FiBell,
-        title:'Social Media',
-        desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
-    },
-    {
-        icon:FiMonitor,
-        title:'Design & Branding',
-        desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
-    },
+    // {
+    //     icon:FiCamera,
+    //     title:'Network Security',
+    //     desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
+    // },
+    // {
+    //     icon:FiBell,
+    //     title:'Social Media',
+    //     desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
+    // },
+    // {
+    //     icon:FiMonitor,
+    //     title:'Design & Branding',
+    //     desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
+    // },
 ]
-
+export const backgroundsHome=[
+    {
+        title:'Ingenieria de detalle',
+        image:bg1
+    },
+    {
+        title:'Edicion de Planos',
+        image:bg2
+    },
+    {
+        title:'Edicion de Planos',
+        image:bg2
+    }
+]
 export const clientData = [
     {
         image:client1,
