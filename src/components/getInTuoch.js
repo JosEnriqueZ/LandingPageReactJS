@@ -1,14 +1,24 @@
 import React from "react";
-import contact from '../assets/images/contact.svg'
+// import contact from '../assets/images/contact.svg'
+import contact from '../assets/images/contact.webp'
 
 export default function GetInTouch(){
     return(
         <section className="relative lg:py-24 py-16 bg-slate-50 dark:bg-slate-800" id="contact">
             <div className="container relative">
                 <div className="grid grid-cols-1 pb-6 text-center">
-                    <h3 className="font-semibold text-2xl leading-normal mb-4">Contactanos </h3>
+                    <h3 className="font-semibold text-2xl leading-normal mb-4">CONTACTANOS </h3>
+                    {/* TEXTO CONTACTANOS     */}
+                    
+                    <p className="text-slate-500 max-w mx-auto">
+                    Ejecutivo comercial de Reparaciones & Mantenimiento &emsp&emsp   (Nombre: +51 999 999 999)</p>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">Este es solo un texto simple creado para esta plantilla única e impresionante; puedes reemplazarlo con cualquier texto.</p>
+                    <p className="text-slate-600 max-w- mx-auto">
+                    Jefe Comercial & Propuesta     (Nombre: xxxx@siling.com.pe)</p>
+
+                    <p className="text-slate-700 max-w- mx-auto">
+                    Ejecutivo comercial de Transporte Logístico/Carga Pesada/MATPEL    (Nombre: +51 999 999 999)</p>                    
+
                 </div>
 
                 <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
@@ -42,7 +52,6 @@ export default function GetInTouch(){
                                         </div>
                                     </div>
                                     <button type="submit" id="submit" name="send" className="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white mt-2">Enviar Mensaje</button>
-                                    <button type="submit" id="submit" name="send" className="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white mt-2">Enviar mensaje</button>
                                 </form>
                             </div>
                         </div>
