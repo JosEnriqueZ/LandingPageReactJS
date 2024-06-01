@@ -20,6 +20,12 @@ import company6 from '../assets/images/team/spotify.svg'
 import bg1 from '../assets/images/bg/1.jpg'
 import bg2 from '../assets/images/bg/2.jpg'
 
+// Imagenes del carrucel Mineria
+import imagen1 from '../assets/images/img-mineria/mantenimiento-de-vias.jpg'
+import imagen2 from '../assets/images/img-mineria/otros-servicios.jpg'
+import imagen3 from '../assets/images/img-mineria/perforacion.jpg'
+
+
 export const servicesData = [
     // {
     //     icon:FiTrendingUp,
@@ -64,16 +70,16 @@ export const servicesData = [
 ]
 export const backgroundsHome=[
     {
-        title:'Ingenieria de detalle',
-        image:bg1
+        title:'Manteniendo de Vias',
+        image:imagen1
     },
     {
-        title:'Edicion de Planos',
-        image:bg2
+        title:'Otros Servicios',
+        image:imagen2
     },
     {
-        title:'Edicion de Planos',
-        image:bg2
+        title:'Perforacion',
+        image:imagen3
     }
 ]
 export const clientData = [
