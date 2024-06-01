@@ -27,10 +27,11 @@ export default function NavLight(){
             <div className="container relative flex flex-wrap items-center justify-between">
                 <Link className="navbar-brand md:me-8" to="/">
                     <span className="inline-block dark:hidden">
+                        {/* LOGO DE LA EMPRESA */}
                         <img src={logoMain} className="l-dark" alt=""/>
                         <img src={logoMain2} className="l-light" alt=""/>
                     </span>
-                    <img src={logoLight} className="hidden dark:inline-block" alt=""/>
+                    <img src={logoMain2} className="hidden dark:inline-block" alt=""/>
                 </Link>
 
                 <div className="nav-icons flex items-center lg_992:order-2 ms-auto md:ms-8">
