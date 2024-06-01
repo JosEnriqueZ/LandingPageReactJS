@@ -48,10 +48,17 @@ export default function IndexTwo() {
             <section className="relative table w-full py-36 lg:py-64 overflow-hidden" id="home">
                 <div className="absolute inset-0 overflow-hidden">
                     {/* <div className="absolute image-wrap -top-[350px] -bottom-[350px] -start-[100px] -end-[100px] min-w-full w-auto min-h-full h-auto overflow-hidden m-auto bg-no-repeat bg-center bg-cover" style={{backgroundImage:`url(${bg})`}}></div> */}
-                    <TinySlider settings={settings}>
+                    <TinySlider className="absolute 
+                     
+                    bg-center
+                    min-w-full 
+                    w-100% 
+                    min-h-full  
+                    m-100% 
+                    " settings={settings}>
                         {backgroundsHome.map((item, index) => {
                             return (   
-                                <div className="tiny-slide" key={index}>
+                                <div className="tiny-slide image-wrap" key={index}>
                                         <img className="w-full h-full object-cover" src={item.image} alt="" />
                                 </div>
                             )
