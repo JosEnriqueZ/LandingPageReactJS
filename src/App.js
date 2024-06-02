@@ -2,13 +2,13 @@ import './App.css';
 import './assets/css/tailwind.css'
 import './assets/css/materialdesignicons.min.css'
 import { Route, Routes } from 'react-router-dom';
-import Index from './pages';
+// import Index from './pages';
 import IndexTwo from './pages/index-two';
-import IndexThree from './pages/index-three';
-import IndexFour from './pages/index-four';
-import IndexFive from './pages/index-five';
-import IndexSix from './pages/index-six';
-import IndexSeven from './pages/index-seven';
+// import IndexThree from './pages/index-three';
+// import IndexFour from './pages/index-four';
+// import IndexFive from './pages/index-five';
+// import IndexSix from './pages/index-six';
+// import IndexSeven from './pages/index-seven';
 
 function App() {
   return (
