@@ -1,52 +1,112 @@
-import React,{useState} from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import GoogleMapReact from 'google-map-react';
+// import { Link } from "react-router-dom";
 
-import ctaImage from "../assets/images/home.png"
+// import ctaImage from "../assets/images/home.png"
 
-import ModalVideo from 'react-modal-video';
+// import ModalVideo from 'react-modal-video';
 import '../../node_modules/react-modal-video/scss/modal-video.scss';
 
-export default function Cta(){
+const AnyReactComponent = ({ onClick }) => (
+    <div onClick={onClick} style={{ cursor: 'pointer', transform: 'translate(-50%, -50%)' }}>
+        <img src="https://img.icons8.com/color/48/000000/marker.png" alt="marker" />
+    </div>
+);
+
+const MarkerPopup = ({ show, onClose }) => (
+    <div style={{
+        display: show ? 'block' : 'none',
+        position: 'absolute',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        background: 'white',
+        padding: '10px',
+        borderRadius: '8px',
+        boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)',
+        zIndex: 1000,
+        textAlign: 'center',
+    }}>
+        <h4>Mina SilingCorp</h4>
+        {/* <p>Dirección: Alguna dirección aquí</p> */}
+        <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">Ver en Google Maps </a>
+        <button onClick={onClose} style={{
+            marginTop: '5px',
+            padding: '5px 10px',
+            background: '#000',
+            color: '#fff',
+            border: 'none',
+            borderRadius: '5px',
+            cursor: 'pointer'
+        }}>Cerrar</button>
+    </div>
+);
+
+export default function Cta() {
     let [isOpen, setOpen] = useState(false);
-    return(
+    const [popupVisible, setPopupVisible] = useState(false);
+
+    const defaultProps = {
+        center: {
+            lat: -16.426386305987094,
+            lng: -71.82131173020592
+        },
+        zoom: 11
+    };
+    return (
         <section className="relative md:py-24 py-16 md:pt-0 pt-0">
-        <div className="container relative">
-            <div className="grid grid-cols-1 justify-center">
-                <div className="relative z-1">
-                    <div className="grid grid-cols-1 md:text-start text-center justify-center">
-                        <div className="relative">
-                            <img src={ctaImage} alt=""/>
-                            <div className="absolute bottom-2/4 translate-y-2/4 start-0 end-0 text-center">
+            <div className="container relative">
+                <div className="grid grid-cols-1 justify-center">
+                    <div className="relative z-1">
+                        <div className="grid grid-cols-1 md:text-start text-center justify-center">
+                            <div className="flex justify-center items-center">
+                                <div className="flex justify-center items-center" style={{ height: '50vh', width: '100%', maxWidth: '600px' }}>
+                                    <GoogleMapReact
+                                        bootstrapURLKeys={{ key: "" }}
+                                        defaultCenter={defaultProps.center}
+                                        defaultZoom={defaultProps.zoom}
+                                    >
+                                        <AnyReactComponent
+                                            lat={-16.426386305987094}
+                                            lng={-71.82131173020592}
+                                            onClick={() => setPopupVisible(true)}
+                                        />
+                                    </GoogleMapReact>
+                                    <MarkerPopup show={popupVisible} onClose={() => setPopupVisible(false)} />
+                                </div>
+                                {/* <img src={ctaImage} alt=""/> */}
+                                {/* <div className="absolute bottom-2/4 translate-y-2/4 start-0 end-0 text-center">
                                 <Link to="#!" onClick={() => setOpen(true)}
                                     className="lightbox size-20 rounded-full shadow-lg dark:shadow-gray-700 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-teal-500 dark:text-white">
                                     <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                                 </Link>
-                            </div>
-                            <ModalVideo
+                            </div> */}
+                                {/* <ModalVideo
                                 channel="youtube"
                                 youtube={{ mute: 0, autoplay: 0 }}
                                 isOpen={isOpen}
                                 videoId="S_CGed6E610"
                                 onClose={() => setOpen(false)} 
-                            />
+                            /> */}
+                            </div>
                         </div>
-                    </div>
-                    <div className="content md:mt-8">
-                        <div className="grid lg:grid-cols-12 grid-cols-1 md:text-start text-center justify-center">
-                            <div className="lg:col-start-2 lg:col-span-10">
-                                <div className="grid md:grid-cols-2 grid-cols-1 items-center">
-                                    <div className="mt-8">
-                                        <div className="section-title text-md-start">
-                                            <h6 className="text-white/70 text-sm font-semibold uppercase">Get Free Trial</h6>
-                                            <h3 className="font-semibold text-2xl leading-normal text-white mt-2">Get An Easy Start <br/> With Upcover Now</h3>
+                        <div className="content md:mt-8">
+                            <div className="grid lg:grid-cols-12 grid-cols-1 md:text-start text-center justify-center">
+                                <div className="lg:col-start-2 lg:col-span-10">
+                                    <div className="grid md:grid-cols-2 grid-cols-1 items-center">
+                                        <div className="mt-8">
+                                            <div className="section-title text-md-start">
+                                                {/* <h6 className="text-white/70 text-sm font-semibold uppercase">Get Free Trial</h6> */}
+                                                <h3 className="font-semibold text-2xl leading-normal text-white mt-2">Nuestra Localizacion</h3>
+                                            </div>
                                         </div>
-                                    </div>
 
-                                    <div className="mt-8">
-                                        <div className="section-title text-md-start">
-                                            <p className="text-white/70 max-w-xl mx-auto mb-2">This is just a simple text made for this unique and awesome template, you can replace it with any text.</p>
-                                            <Link to="" className="text-white">Read More <i className="mdi mdi-chevron-right align-middle"></i></Link>
-                                        </div>
+                                        {/* <div className="mt-8">
+                                            <div className="section-title text-md-start">
+                                                <p className="text-white/70 max-w-xl mx-auto mb-2">Mapa</p>
+                                                <Link to="" className="text-white">Read More <i className="mdi mdi-chevron-right align-middle"></i></Link>
+                                            </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -54,9 +114,8 @@ export default function Cta(){
                     </div>
                 </div>
             </div>
-        </div>
-        
-        <div className="absolute bottom-0 start-0 end-0 sm:h-2/3 h-4/5 bg-gradient-to-b from-teal-400 to-teal-500"></div>
-    </section>
+
+            <div className="absolute bottom-0 start-0 end-0 sm:h-2/3 h-4/5 bg-gradient-to-b from-teal-400 to-teal-500"></div>
+        </section>
     )
 }
