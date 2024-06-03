@@ -84,44 +84,76 @@ export const backgroundsHome=[
         image:imagen3
     }
 ]
-export const clientData = [
+export const clientData=[
     {
         image:client1,
-        name:'Calvin Carlo',
-        title:'Manager',
-        desc:'" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "'
+        name:'Cliente 1',
+        title:'Cliente 1',
     },
     {
         image:client2,
-        name:'Christa Smith',
-        title:'Manager',
-        desc:'" The most well-known dummy text is the Lorem Ipsum, which is said to have originated in the 16th century. "'
+        name:'Cliente 2',
+        title:'Cliente 2',
     },
     {
         image:client3,
-        name:'Jemina CLone',
-        title:'Manager',
-        desc:'" One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others"'
+        name:'Cliente 3',
+        title:'Cliente 3',
     },
     {
         image:client4,
-        name:'Smith Vodka',
-        title:'Manager',
-        desc:'" Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts "'
+        name:'Cliente 4',
+        title:'Cliente 4',
     },
     {
         image:client5,
-        name:'Cristino Murfi',
-        title:'Manager',
-        desc:'" There is now an abundance of readable dummy texts. These are usually used when a text is required"'
+        name:'Cliente 5',
+        title:'Cliente 5',
     },
     {
         image:client6,
-        name:'Cristino Murfi',
-        title:'Manager',
-        desc:'" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero "'
+        name:'Cliente 6',
+        title:'Cliente 6',
     },
 ]
+// export const clientData = [
+//     {
+//         image:client1,
+//         name:'Calvin Carlo',
+//         title:'Manager',
+//         desc:'" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "'
+//     },
+//     {
+//         image:client2,
+//         name:'Christa Smith',
+//         title:'Manager',
+//         desc:'" The most well-known dummy text is the Lorem Ipsum, which is said to have originated in the 16th century. "'
+//     },
+//     {
+//         image:client3,
+//         name:'Jemina CLone',
+//         title:'Manager',
+//         desc:'" One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others"'
+//     },
+//     {
+//         image:client4,
+//         name:'Smith Vodka',
+//         title:'Manager',
+//         desc:'" Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts "'
+//     },
+//     {
+//         image:client5,
+//         name:'Cristino Murfi',
+//         title:'Manager',
+//         desc:'" There is now an abundance of readable dummy texts. These are usually used when a text is required"'
+//     },
+//     {
+//         image:client6,
+//         name:'Cristino Murfi',
+//         title:'Manager',
+//         desc:'" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero "'
+//     },
+// ]
 
 export const blogData = [
     {
