@@ -5,7 +5,7 @@ import Carrucel from "../components/carrucel";
 import About from "../components/about";
 import Services from "../components/services";
 import AgencyTab from "../components/agencyTab";
-import Cta from "../components/cta";
+import Location from "../components/location";
 import Client from "../components/client";
 // import Pricing from "../components/pricing";
 import Blogs from "../components/blog";
@@ -22,7 +22,7 @@ export default function IndexTwo() {
             <About />
             <Services />
             <AgencyTab />
-            <Cta />
+            <Location />
             <Client />
             {/* <Pricing/> */}
             <Blogs />
