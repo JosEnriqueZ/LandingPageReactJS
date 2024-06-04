@@ -36,23 +36,51 @@ export const servicesData = [
     // },
     {
         icon:FiDollarSign,
-        title:'Edicion de Planos',
-        desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
+        img: client1,
+        title:'Arrendamiento',
+        desc:'Contamos con más de 350 equipos de última generación. Perforadoras, excavadoras, cargadores frontales, tractores, motoniveladoras, volquetes, equipos auxiliares.'
     },
     {
         icon:FiCompass,
+        img: client1,
         title:'Servicios de Mantenimiento de Planta',
         desc:'Se brinda el mantenimiento preventivo y correctivo de los equipos de planta de acuerdo a los procedimientos establecidos por el fabricante y la empresa.'
     },
     {
         icon:FaFire,
+        img: client1,
         title:'Sistema contra incendios',
         desc:'Se brinda el servicio de instalación y mantenimiento de sistemas contra incendios, de acuerdo a las normas y procedimientos establecidos por el fabricante y la empresa.'
     },
     {
         icon:FiBox,
-        title:'Alquiler de camionetas',
-        desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
+        img: client1,
+        title:'Infraestructura',
+        desc:'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
+    },
+    {
+        icon:FiBox,
+        img: client1,
+        title:'Infraestructura',
+        desc:'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
+    },
+    {
+        icon:FiBox,
+        img: client1,
+        title:'Infraestructura',
+        desc:'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
+    },
+    {
+        icon:FiBox,
+        img: client1,
+        title:'Infraestructura',
+        desc:'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
+    },
+    {
+        icon:FiBox,
+        img: client1,
+        title:'Infraestructura',
+        desc:'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
     },
     // {
     //     icon:FiCamera,
@@ -87,23 +115,23 @@ export const backgroundsHome=[
 export const clientData=[
     {
         image:client1,
-        name:'Cliente 1',
-        title:'Cliente 1',
+        name:'LAS BAMBAS',
+        title:'Minera',
     },
     {
         image:client2,
-        name:'Cliente 2',
-        title:'Cliente 2',
+        name:'Minsur',
+        title:'Minera',
     },
     {
         image:client3,
-        name:'Cliente 3',
-        title:'Cliente 3',
+        name:'STRACON',
+        title:'Minera',
     },
     {
         image:client4,
-        name:'Cliente 4',
-        title:'Cliente 4',
+        name:'Zafranal',
+        title:'Proyecto',
     },
     {
         image:client5,

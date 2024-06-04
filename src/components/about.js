@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import aboutImage from '../assets/images/about.jpg'
+// import aboutImage from '../assets/images/about.jpg'
+import aboutImage from '../assets/images/carguio.jpg'
+
 
 import CountUp from 'react-countup';
 
@@ -16,8 +18,8 @@ export default function About(){
 
                                 <div className="absolute top-1/2 -translate-y-1/2 start-0 end-0 mx-auto size-56 flex justify-center items-center bg-white dark:bg-slate-900 rounded-full shadow dark:shadow-gray-700">
                                     <div className="text-center">
-                                        <span className="text-teal-500 text-2xl font-semibold mb-0 block"><CountUp className="counter-value text-6xl font-semibold" start={0} end={15}/>+</span>
-                                        <span className="font-semibold block mt-2">Years <br/> Experience</span>
+                                        <span className="text-teal-500 text-2xl font-semibold mb-0 block"><CountUp className="counter-value text-6xl font-semibold" start={0} end={10}/>+</span>
+                                        <span className="font-semibold block mt-2">AÑOS <br/> EXPERIENCIA</span>
                                     </div>
                                 </div>
                             </div>
@@ -31,7 +33,7 @@ export default function About(){
 
                             <p className="text-slate-400 max-w-xl mb-6">Obtenga recursos útiles instantáneos sobre cualquier cosa mientras viaja</p>
 
-                            <Link to="" className="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white">Leer mas <i className="mdi mdi-chevron-right align-middle ms-0.5"></i></Link>
+                            <Link to="" className="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white">Leer más <i className="mdi mdi-chevron-right align-middle ms-0.5"></i></Link>
                         </div>
                     </div>
                 </div>
