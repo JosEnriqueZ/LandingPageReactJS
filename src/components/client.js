@@ -60,7 +60,7 @@ export default function Client(){
                                     </div> */}
                                     
                                     <div className="text-center mt-5">
-                                        <img src={item.image} className="size-clients rounded-full shadow-md dark:shadow-gray-700 mx-auto" alt=""/>
+                                        <img src={item.image} className="size-clients  rounded-full shadow-md dark:shadow-gray-700 mx-auto" alt=""/>
                                         <h6 className="mt-2 font-semibold">{item.name}</h6>
                                         <span className="text-slate-400 text-sm">{item.title}</span>
                                     </div>

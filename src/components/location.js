@@ -41,7 +41,7 @@ export default function Cta() {
                   <div className="w-full h-full border-0 max-w-screen-lg">
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51579.98135852402!2d-72.15919858776121!3d-16.08078830006455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9141e94b170ae7ed%3A0x27ea7b798e0af463!2sCampamento%20Zafranal!5e0!3m2!1ses!2spe!4v1717302865596!5m2!1ses!2spe"
-                      className="w-full h-full"
+                      className="w-full h-full rounded-xl"
                       style={{ border: 0 }}
                       allowFullScreen=""
                       loading="lazy"

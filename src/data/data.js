@@ -1,9 +1,12 @@
 import { FiTrendingUp,FiRefreshCcw,FaFire, FiDollarSign, FiCompass,FiCommand, FiBox, FiCamera, FiBell, FiMonitor } from '../assets/icons/vander'
-import client1 from '../assets/images/team/01.jpg'
-import client2 from '../assets/images/team/02.jpg'
-import client3 from '../assets/images/team/03.jpg'
-import client4 from '../assets/images/team/04.jpg'
-import client5 from '../assets/images/team/05.jpg'
+import client1 from '../assets/images/team/lasbambaslogo.jpg'
+// import client2 from '../assets/images/team/02.jpg'
+import client2 from '../assets/images/team/minsurlogo.jpg'
+// import client3 from '../assets/images/team/03.jpg'
+import client3 from '../assets/images/team/03.png'
+// import client4 from '../assets/images/team/04.jpg'
+import client4 from '../assets/images/team/zafranallogo.jpg'
+import client5 from '../assets/images/team/antapaccay.png'
 import client6 from '../assets/images/team/06.jpg'
 
 // import blog1 from '../assets/images/blog/01.jpg'
@@ -135,13 +138,8 @@ export const clientData=[
     },
     {
         image:client5,
-        name:'Cliente 5',
-        title:'Cliente 5',
-    },
-    {
-        image:client6,
-        name:'Cliente 6',
-        title:'Cliente 6',
+        name:'Antapaccay',
+        title:'Minera',
     },
 ]
 // export const clientData = [

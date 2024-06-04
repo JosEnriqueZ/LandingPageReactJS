@@ -55,7 +55,7 @@ export default function Carrucel() {
                             channel="youtube"
                             youtube={{ mute: 0, autoplay: 0 }}
                             isOpen={isOpen}
-                            videoId="S_CGed6E610"
+                            videoId="RnPlcQyH4yM"
                             onClose={() => setOpen(false)}
                         />
                         <div className="text-center">
