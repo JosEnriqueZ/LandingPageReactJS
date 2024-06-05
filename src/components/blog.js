@@ -32,7 +32,7 @@ export default function Blogs(){
                                 <p className="text-slate-400 mt-2">{item.desc}</p>
 
                                 <div className="mt-3">
-                                    <Link to="" className="text-teal-500">Leer más <i className="mdi mdi-chevron-right align-middle"></i></Link>
+                                    <Link to={"/detail/news/"+item.id} className="text-teal-500">Leer más <i className="mdi mdi-chevron-right align-middle"></i></Link>
                                 </div>
                             </div>
                         </div>

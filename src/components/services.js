@@ -26,7 +26,7 @@ export default function Services(){
                                     <p className="text-slate-400 mt-3">{item.desc}</p>
         
                                     <div className="mt-6">
-                                        <Link to="" className="text-teal-500">Leer más <i className="mdi mdi-chevron-right align-middle"></i></Link>
+                                        <Link to={"/detail/service/"+item.id} className="text-teal-500">Leer más <i className="mdi mdi-chevron-right align-middle"></i></Link>
                                     </div>
                                 </div>
         

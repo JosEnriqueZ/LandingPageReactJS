@@ -1,4 +1,4 @@
-import { FiTrendingUp,FiRefreshCcw,FaFire, FiDollarSign, FiCompass,FiCommand, FiBox, FiCamera, FiBell, FiMonitor } from '../assets/icons/vander'
+import { FiTrendingUp, FiRefreshCcw, FaFire, FiDollarSign, FiCompass, FiCommand, FiBox, FiCamera, FiBell, FiMonitor } from '../assets/icons/vander'
 import client1 from '../assets/images/team/lasbambaslogo.jpg'
 // import client2 from '../assets/images/team/02.jpg'
 import client2 from '../assets/images/team/minsurlogo.jpg'
@@ -10,6 +10,7 @@ import client5 from '../assets/images/team/antapaccay.png'
 import client6 from '../assets/images/team/06.jpg'
 
 // import blog1 from '../assets/images/blog/01.jpg'
+import camion from '../assets/images/blog/camion.jpg'
 import blog1 from '../assets/images/blog/01.png'
 // import blog2 from '../assets/images/blog/02.jpg'
 import blog2 from '../assets/images/blog/02.jpeg'
@@ -30,6 +31,15 @@ import imagen1 from '../assets/images/img-mineria/mantenimiento-de-vias.jpg'
 import imagen2 from '../assets/images/img-mineria/otros-servicios.jpg'
 import imagen3 from '../assets/images/img-mineria/perforacion.jpg'
 
+import logoabout from '../assets/images/logo180x55OLD.png'
+
+export const aboutData = {
+    title: 'SILINGCORP',
+    desc: 'SILINGCORP es una empresa peruana con más de 10 años de experiencia en el mercado, especializada en el alquiler de maquinaria pesada y servicios de mantenimiento de planta, infraestructura y sistemas contra incendios. Contamos con un equipo de profesionales altamente calificados y comprometidos con la calidad y seguridad en el trabajo.',
+    img: logoabout,
+    // counter:10,
+    // experience:'Años de Experiencia'
+}
 
 export const servicesData = [
     // {
@@ -38,52 +48,60 @@ export const servicesData = [
     //     desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
     // },
     {
-        icon:FiDollarSign,
+        id: 1,
+        icon: FiDollarSign,
         img: client1,
-        title:'Arrendamiento',
-        desc:'Contamos con más de 350 equipos de última generación. Perforadoras, excavadoras, cargadores frontales, tractores, motoniveladoras, volquetes, equipos auxiliares.'
+        title: 'Arrendamiento',
+        desc: 'Contamos con más de 350 equipos de última generación. Perforadoras, excavadoras, cargadores frontales, tractores, motoniveladoras, volquetes, equipos auxiliares.'
     },
     {
-        icon:FiCompass,
+        id: 2,
+        icon: FiCompass,
         img: client1,
-        title:'Servicios de Mantenimiento de Planta',
-        desc:'Se brinda el mantenimiento preventivo y correctivo de los equipos de planta de acuerdo a los procedimientos establecidos por el fabricante y la empresa.'
+        title: 'Servicios de Mantenimiento de Planta',
+        desc: 'Se brinda el mantenimiento preventivo y correctivo de los equipos de planta de acuerdo a los procedimientos establecidos por el fabricante y la empresa.'
     },
     {
-        icon:FaFire,
+        id: 3,
+        icon: FaFire,
         img: client1,
-        title:'Sistema contra incendios',
-        desc:'Se brinda el servicio de instalación y mantenimiento de sistemas contra incendios, de acuerdo a las normas y procedimientos establecidos por el fabricante y la empresa.'
+        title: 'Sistema contra incendios',
+        desc: 'Se brinda el servicio de instalación y mantenimiento de sistemas contra incendios, de acuerdo a las normas y procedimientos establecidos por el fabricante y la empresa.'
     },
     {
-        icon:FiBox,
+        id: 4,
+        icon: FiBox,
         img: client1,
-        title:'Infraestructura',
-        desc:'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
+        title: 'Infraestructura',
+        desc: 'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
     },
     {
-        icon:FiBox,
+        id: 5,
+        icon: FiBox,
         img: client1,
-        title:'Infraestructura',
-        desc:'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
+        title: 'Infraestructura',
+        desc: 'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
     },
     {
-        icon:FiBox,
+        id: 6,
+        icon: FiBox,
         img: client1,
-        title:'Infraestructura',
-        desc:'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
+        title: 'Infraestructura',
+        desc: 'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
     },
     {
-        icon:FiBox,
+        id: 7,
+        icon: FiBox,
         img: client1,
-        title:'Infraestructura',
-        desc:'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
+        title: 'Infraestructura',
+        desc: 'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
     },
     {
-        icon:FiBox,
+        id: 8,
+        icon: FiBox,
         img: client1,
-        title:'Infraestructura',
-        desc:'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
+        title: 'Infraestructura',
+        desc: 'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
     },
     // {
     //     icon:FiCamera,
@@ -101,45 +119,45 @@ export const servicesData = [
     //     desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
     // },
 ]
-export const backgroundsHome=[
+export const backgroundsHome = [
     {
-        title:'Manteniendo de Vias',
-        image:imagen1
+        title: 'Manteniendo de Vias',
+        image: imagen1
     },
     {
-        title:'Otros Servicios',
-        image:imagen2
+        title: 'Otros Servicios',
+        image: imagen2
     },
     {
-        title:'Perforacion',
-        image:imagen3
+        title: 'Perforacion',
+        image: imagen3
     }
 ]
-export const clientData=[
+export const clientData = [
     {
-        image:client1,
-        name:'LAS BAMBAS',
-        title:'Minera',
+        image: client1,
+        name: 'LAS BAMBAS',
+        title: 'Minera',
     },
     {
-        image:client2,
-        name:'Minsur',
-        title:'Minera',
+        image: client2,
+        name: 'Minsur',
+        title: 'Minera',
     },
     {
-        image:client3,
-        name:'STRACON',
-        title:'Minera',
+        image: client3,
+        name: 'STRACON',
+        title: 'Minera',
     },
     {
-        image:client4,
-        name:'Zafranal',
-        title:'Proyecto',
+        image: client4,
+        name: 'Zafranal',
+        title: 'Proyecto',
     },
     {
-        image:client5,
-        name:'Antapaccay',
-        title:'Minera',
+        image: client5,
+        name: 'Antapaccay',
+        title: 'Minera',
     },
 ]
 // export const clientData = [
@@ -183,23 +201,85 @@ export const clientData=[
 
 export const blogData = [
     {
-        image:blog1,
-        title:'Nuestra IMAGEN Nueva',
-        desc:'SILINGCORP Como parte de un grupo de grandes empresas mineras, transformamos nuestra imagen más actualizada y versátil. Para mostrar nuestra nueva filosofía de SUMA, la que compartimos TODOS dentro de la compañía y con nuestros clientes. ',
-        date:'01 de Junio del 2024'
+        id: 1,
+        image: blog1,
+        title: 'Nuestra IMAGEN Nueva',
+        desc: 'SILINGCORP Como parte de un grupo de grandes empresas mineras, transformamos nuestra imagen más actualizada y versátil. Para mostrar nuestra nueva filosofía de SUMA, la que compartimos TODOS dentro de la compañía y con nuestros clientes. ',
+        date: '01 de Junio del 2024'
     },
     {
-        image:blog2,
-        title:'SILINGCORP apuesta por la transformación digital e innovación',
-        desc:'La transformación digital de SILINGCORP es un esfuerzo conjunto de todas las áreas de la empresa y estamos seguros que dará mucho valor a los equipos y nos permitirá afianzar nuestro proceso de transformación digital.',
-        date:'25 de Mayo del 2024'
+        id: 2,
+        image: blog2,
+        title: 'SILINGCORP apuesta por la transformación digital e innovación',
+        desc: 'La transformación digital de SILINGCORP es un esfuerzo conjunto de todas las áreas de la empresa y estamos seguros que dará mucho valor a los equipos y nos permitirá afianzar nuestro proceso de transformación digital.',
+        date: '25 de Mayo del 2024'
     },
     {
-        image:blog3,
-        title:'SILINGCORP sigue innovando en infraestructura',
-        desc:'«Esta adquisición refuerza nuestro compromiso con la excelencia operativa y la satisfacción de nuestros clientes. Los camiones Volvo FMX-R Max son conocidos por su durabilidad y rendimiento, lo que los convierte en la elección ideal para las exigencias de nuestro proyecto en Cerro Corona», comentó Luis Flores, Gerente General.',
-        date:'15 de Marzo del 2024'
+        id: 3,
+        image: blog3,
+        title: 'SILINGCORP sigue innovando en infraestructura',
+        desc: '«Esta adquisición refuerza nuestro compromiso con la excelencia operativa y la satisfacción de nuestros clientes. Los camiones Volvo FMX-R Max son conocidos por su durabilidad y rendimiento, lo que los convierte en la elección ideal para las exigencias de nuestro proyecto en Cerro Corona», comentó Luis Flores, Gerente General.',
+        date: '15 de Marzo del 2024'
     },
 ]
+
+export const mision= {
+    title: 'MISIÓN',
+    desc: 'Proveer soluciones inteligentes, innovadoras y seguras que agreguen valor a nuestros clientes. Nos dedicamos a optimizar cada proyecto con un enfoque en la eficiencia, la calidad y la sostenibilidad, asegurando el éxito y la satisfacción de nuestros clientes en cada etapa del proceso.',
+    img:camion
+}
+
+export const vision = {
+    title: 'VISIÓN',
+    desc: 'Para el año 2025, posicionar a Siling Corp como la empresa más confiable y respetada en servicios de Ingeniería, Procura y Construcción (EPC) y Operación y Mantenimiento (O&M) para proyectos civil-electromecánicos en el sur del Perú. Nos esforzamos por ser reconocidos por nuestra excelencia, compromiso y capacidad para superar las expectativas de nuestros clientes.',
+    img:blog2
+}
+
+export const valores = [
+    {
+        title: 'Experiencia',
+        desc: 'Brindamos y formamos organizaciones, versatilidad, saber hacer y confiabilidad.',
+        img:blog3
+    },
+    {
+        title: 'Cercanía',
+        desc: 'Cercanía con una mejor comunicación, cercana, inmediata y coordial.',
+
+    },
+    {
+        title: 'Compromiso',
+        desc: 'Siempre involucrados con responsabilidad, puntualidad y proactividad.',
+
+    },
+    {
+        title: 'Respaldo',
+        desc: 'Con equipos, tecnología y solidez financiera, las cuales aportan y suman seguridad.',
+
+    }
+]
+
+
+export const misionVisionValores = {
+    mision: 'Proveer soluciones inteligentes, innovadoras y seguras que agreguen valor a nuestros clientes. Nos dedicamos a optimizar cada proyecto con un enfoque en la eficiencia, la calidad y la sostenibilidad, asegurando el éxito y la satisfacción de nuestros clientes en cada etapa del proceso.',
+    vision: 'Para el año 2025, posicionar a Siling Corp como la empresa más confiable y respetada en servicios de Ingeniería, Procura y Construcción (EPC) y Operación y Mantenimiento (O&M) para proyectos civil-electromecánicos en el sur del Perú. Nos esforzamos por ser reconocidos por nuestra excelencia, compromiso y capacidad para superar las expectativas de nuestros clientes.',
+    valores: [
+        {
+            title: 'Experiencia',
+            desc: 'Brindamos y formamos organizaciones, versatilidad, saber hacer y confiabilidad.'
+        },
+        {
+            title: 'Cercanía',
+            desc: 'Cercanía con una mejor comunicación, cercana, inmediata y coordial.'
+        },
+        {
+            title: 'Compromiso',
+            desc: 'Siempre involucrados con responsabilidad, puntualidad y proactividad.'
+        },
+        {
+            title: 'Respaldo',
+            desc: 'Con equipos, tecnología y solidez financiera, las cuales aportan y suman seguridad.'
+        }
+    ]
+}
 
 export const companyLogo = [company1, company2, company3, company4, company5, company6]

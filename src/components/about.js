@@ -33,7 +33,7 @@ export default function About(){
 
                             <p className="text-slate-400 max-w-xl mb-6">Obtenga recursos útiles instantáneos sobre cualquier cosa mientras viaja</p>
 
-                            <Link to="" className="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white">Leer más <i className="mdi mdi-chevron-right align-middle ms-0.5"></i></Link>
+                            <Link to="/detail/about" className="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white">Leer más <i className="mdi mdi-chevron-right align-middle ms-0.5"></i></Link>
                         </div>
                     </div>
                 </div>
