@@ -59,7 +59,7 @@ export default function Details() {
                                         .filter(item => item.id === undefined)
                                         .map((item, index) => (
                                             <div key={index}>
-                                                <strong>{item.title}</strong>: <br /> {item.desc}
+                                                <strong>{item.title}</strong>: <br /> {item.desc.split('\n').map((line, index) => <React.Fragment key={index}>{line}<br /></React.Fragment>)}
                                             </div>
                                         ))
                                 ) : (
@@ -67,13 +67,26 @@ export default function Details() {
                                         .filter(item => item.id === parseInt(id))
                                         .map((item) => (
                                             <div key={item.id}>
-                                                {item.desc}
+                                                {item.desc.split('\n').map((line, index) => <React.Fragment key={index}>{line}<br /></React.Fragment>)}
                                             </div>
                                         ))
                                 )
                             ) : (
-                                <>{content.desc}</>
+                                <div>
+                                    {content.desc.split('\n').map((line, index) => (
+                                        <React.Fragment key={index}>
+                                            {line.includes("Historia") ? (
+                                                <span style={{ fontWeight: "bold" }}>{line}</span>
+                                            ) : (
+                                                line
+                                            )}
+                                            <br />
+                                        </React.Fragment>
+                                    ))}
+                                </div>
                             )}
+
+
                         </div>
                     </div>
 
@@ -90,13 +103,13 @@ export default function Details() {
                                             </div>
                                         ))
                                 ) : (
-                                content
-                                    .filter(item => item.id === parseInt(id))
-                                    .map((item) => (
-                                        <div key={item.id}>
-                                            <img src={item.img || item.image} className="w-full h-auto" />
-                                        </div>
-                                    ))
+                                    content
+                                        .filter(item => item.id === parseInt(id))
+                                        .map((item) => (
+                                            <div key={item.id}>
+                                                <img src={item.img || item.image} className="w-full h-auto" />
+                                            </div>
+                                        ))
                                 )
                             ) : (
                                 <img src={content.img || content.image} className="w-full h-auto" />

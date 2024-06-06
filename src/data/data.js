@@ -1,4 +1,4 @@
-import { FiTrendingUp, FiRefreshCcw, FaFire, FiDollarSign, FiCompass, FiCommand, FiBox, FiCamera, FiBell, FiMonitor } from '../assets/icons/vander'
+import { FiTrendingUp, BiBuildings,PiDrone ,BiBarChartSquare,BiCog,FaTruck, FaFire, FiDollarSign, FiCompass, FiCommand, FiBox, FiCamera, FiBell, FiMonitor } from '../assets/icons/vander'
 import client1 from '../assets/images/team/lasbambaslogo.jpg'
 // import client2 from '../assets/images/team/02.jpg'
 import client2 from '../assets/images/team/minsurlogo.jpg'
@@ -35,89 +35,67 @@ import logoabout from '../assets/images/logo180x55OLD.png'
 
 export const aboutData = {
     title: 'SILINGCORP',
-    desc: 'SILINGCORP es una empresa peruana con más de 10 años de experiencia en el mercado, especializada en el alquiler de maquinaria pesada y servicios de mantenimiento de planta, infraestructura y sistemas contra incendios. Contamos con un equipo de profesionales altamente calificados y comprometidos con la calidad y seguridad en el trabajo.',
+    desc: `Somos una empresa Lluteña prestadora de bienes y servicios, fundada en el distrito de Lluta, provincia de Caylloma; el esfuerzo de nuestros fundadores oriundos de Lluta con más de 8 años orientada al transporte de carga y mercancías locales y más de 4 generaciones al servicio del desarrollo de la agricultura e industria de nuestro pueblo, sumados a la formación universitaria de sus descendientes nos permitió consolidarnos como empresa contratista ampliando nuestros servicios de mantenimiento mecánico, diseño y fabricación metalmecánica, mantenimiento de sistemas contra incendio para proyectos mineros e industriales en el sur del país.\n\Historia\nNuestro área de Ingeniería cuenta con Profesionales de primer nivel; desarrollamos proyectos integrales (mecánico, civil, eléctrico). Asimismo, se realiza el diseño, fabricación, montaje y mantenimiento de estructuras y equipos para la minería e industria, siendo especialistas en trabajos de recuperación de piezas por Soldadura, especialistas en el Montaje y Desmontaje de Andamios, todo esto de acuerdo a los requerimientos, estándares y especificaciones de alta calidad a precios competitivos y entregas en los tiempos requeridos. SILING CORP S.A.C. cuenta con un programa de Calidad, seguridad y Medio Ambiente para los diferentes proyectos que realizamos.`,
     img: logoabout,
-    // counter:10,
-    // experience:'Años de Experiencia'
 }
 
 export const servicesData = [
-    // {
-    //     icon:FiTrendingUp,
-    //     title:'Ingenieria de detalle',
-    //     desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
-    // },
     {
         id: 1,
         icon: FiDollarSign,
         img: client1,
         title: 'Arrendamiento',
-        desc: 'Contamos con más de 350 equipos de última generación. Perforadoras, excavadoras, cargadores frontales, tractores, motoniveladoras, volquetes, equipos auxiliares.'
+        desc: 'Como contratistas locales brindamos el servicio de alquiler de camionetas y camiones de bajo tonelaje, unidades equipadas y homologadas para el servicio dentro de la gran minería, y proyectos industriales. En maquina seca o con conductor,contamos con personal certificado en manejo defensivo por la National Safety Council.'
     },
     {
         id: 2,
         icon: FiCompass,
         img: client1,
         title: 'Servicios de Mantenimiento de Planta',
-        desc: 'Se brinda el mantenimiento preventivo y correctivo de los equipos de planta de acuerdo a los procedimientos establecidos por el fabricante y la empresa.'
+        desc: 'Brindamos el mantenimiento predictivo preventivo y correctivo de los equipos de planta minera e industriales. Contamos con experiencia en plantas concentradoras en gran minería y plantas procesadoras de alimentos'
     },
     {
         id: 3,
         icon: FaFire,
         img: client1,
         title: 'Sistema contra incendios',
-        desc: 'Se brinda el servicio de instalación y mantenimiento de sistemas contra incendios, de acuerdo a las normas y procedimientos establecidos por el fabricante y la empresa.'
+        desc: 'Ofrecemos el servicio de instalación y mantenimiento de sistemas contra incendios de acuerdos alas normas NFPA asi como la ingeniería y equipos de alarma contra incendio tableros eléctricos, tableros de control.'
     },
     {
         id: 4,
-        icon: FiBox,
+        icon: BiBuildings,
         img: client1,
-        title: 'Infraestructura',
-        desc: 'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
+        title: 'Obras Civiles',
+        desc: 'Brindamos el movimiento de tierras para la construcción de carreteras y edificaciones con amplia experiencia en el área de construcción y obras civiles contamos con maquinaria y personal de respaldo.'
     },
     {
         id: 5,
-        icon: FiBox,
+        icon: PiDrone,
         img: client1,
-        title: 'Infraestructura',
-        desc: 'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
+        title: 'Servicios NDT y Filmacion con Drone',
+        desc: 'Realizamos ensayos NDT, elaboración de dosier de calidad contamos con certificación nivel II en ultrasonido, tintes penetrantes,análisis vibracional,medición de espesor de pinturas, inspección de soldadura'
     },
     {
         id: 6,
-        icon: FiBox,
+        icon: BiBarChartSquare,
         img: client1,
-        title: 'Infraestructura',
-        desc: 'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
+        title: 'Analisis Estructural y Fabricaciones',
+        desc: 'Realizamos el estudio análisis y simulación de estructuras con CAD CAM  y CAE trabajos ralizados como chutes y tolvas plataformas de mantenimiento cercos y concertinas zarandas estáticas naves industriales techos campamentos.'
     },
     {
         id: 7,
-        icon: FiBox,
+        icon: BiCog,
         img: client1,
-        title: 'Infraestructura',
-        desc: 'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
+        title: 'Proyectos Industriales',
+        desc: 'Realizamos la fabricación de estructuras para la industria alimentaria, en material inox, tableros eléctricos sistemas de refrigeración, tuberías, tinas doble o, intercambiadores de calor, energías renovables'
     },
     {
         id: 8,
-        icon: FiBox,
+        icon: FaTruck,
         img: client1,
-        title: 'Infraestructura',
-        desc: 'Brindamos el movimiento de tierras para la construcción de carreteras a nivel nacional'
+        title: 'Transporte',
+        desc: 'Se realiza el transporte de personal y carga a nivel regional, nuestras rutas. Arequipa, Pedregal Majes, Huancarqui, Lluta.'
     },
-    // {
-    //     icon:FiCamera,
-    //     title:'Network Security',
-    //     desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
-    // },
-    // {
-    //     icon:FiBell,
-    //     title:'Social Media',
-    //     desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
-    // },
-    // {
-    //     icon:FiMonitor,
-    //     title:'Design & Branding',
-    //     desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
-    // },
 ]
 export const backgroundsHome = [
     {
@@ -231,29 +209,34 @@ export const mision= {
 
 export const vision = {
     title: 'VISIÓN',
-    desc: 'Para el año 2025, posicionar a Siling Corp como la empresa más confiable y respetada en servicios de Ingeniería, Procura y Construcción (EPC) y Operación y Mantenimiento (O&M) para proyectos civil-electromecánicos en el sur del Perú. Nos esforzamos por ser reconocidos por nuestra excelencia, compromiso y capacidad para superar las expectativas de nuestros clientes.',
+    desc: 'Posicionar a Siling Corp como la empresa contratista local más confiable y respetada en servicios de Ingeniería, y Operación y Mantenimiento para proyectos electromecánicos y civiles en el sur del Perú. Nos esforzamos por ser reconocidos por nuestra excelencia, compromiso y capacidad para superar las expectativas de nuestros clientes.',
     img:blog2
 }
 
 export const valores = [
     {
-        title: 'Experiencia',
-        desc: 'Brindamos y formamos organizaciones, versatilidad, saber hacer y confiabilidad.',
+        title: 'Responsabilidad y confianza',
+        desc: 'Cumplir con nuestros compromisos y trabajar para cuidar nuestra reputación, como una empresa confiable.',
         img:blog3
     },
     {
-        title: 'Cercanía',
-        desc: 'Cercanía con una mejor comunicación, cercana, inmediata y coordial.',
+        title: 'Identidad Cultural',
+        desc: 'Estamos orgullosos del legado y  tradiciones de nuestro pueblo transmitido por generaciones. Somos responsables de seguirlo transmitiendo. Aspiramos a ser la mejor empresa Lluteña',
 
     },
     {
-        title: 'Compromiso',
-        desc: 'Siempre involucrados con responsabilidad, puntualidad y proactividad.',
+        title: 'Respeto',
+        desc: 'Creemos firmemente que  el respeto fomenta relaciones sólidas entre los miembros del equipo, mejora la comunicación y promueve la colaboración y la productividad con nuestro entorno.',
 
     },
     {
-        title: 'Respaldo',
-        desc: 'Con equipos, tecnología y solidez financiera, las cuales aportan y suman seguridad.',
+        title: 'Seguridad',
+        desc: 'Trabajamos con altos estándares de seguridad, creemos firmemente que la seguridad no se negocia . Nuestros procedimientos aseguran que todo nuestro equipo humano , regresen sanos y salvos a sus hogares.',
+
+    },
+    {
+        title: 'Sostenibilidad',
+        desc: 'Trabajamos responsablemente y nos esforzamos por contribuir positivamente en el desarrollo del país a nivel económico social y medioambiental',
 
     }
 ]

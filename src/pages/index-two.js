@@ -17,17 +17,27 @@ import GetInTouch from "../components/getInTuoch";
 export default function IndexTwo() {
     return (
         <>
+            {/* Es el navegador */}
             <NavLight />
+            {/* Es el carrucel */}
             <Carrucel />
+            {/* Es el quienes somos */}
             <About />
+            {/* Es los servicios */}
             <Services />
+            {/* Es mision,vision y valores */}
             <AgencyTab />
+            {/* Localizacion y mapa */}
             <Location />
+            {/* Clientes */}
             <Client />
-            {/* <Pricing/> */}
+            {/* Novedades */}
             <Blogs />
+            {/* Contactanos */}
             <GetInTouch />
+            {/* Pie de pagina */}
             <Footer />
+            {/* Cambiador de tema */}
             <Switcher />
         </>
     )
