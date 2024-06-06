@@ -161,6 +161,13 @@ export const blogData = [
         desc: '«Esta adquisición refuerza nuestro compromiso con la excelencia operativa y la satisfacción de nuestros clientes. Los camiones Volvo FMX-R Max son conocidos por su durabilidad y rendimiento, lo que los convierte en la elección ideal para las exigencias de nuestro proyecto en Cerro Corona», comentó Luis Flores, Gerente General.',
         date: '15 de Marzo del 2024'
     },
+    {
+        id: 4,
+        image: blog3,
+        title: 'SILINGCORP sigue innovando en infraestructura 2',
+        desc: '«Esta adquisición refuerza nuestro compromiso con la excelencia operativa y la satisfacción de nuestros clientes. Los camiones Volvo FMX-R Max son conocidos por su durabilidad y rendimiento, lo que los convierte en la elección ideal para las exigencias de nuestro proyecto en Cerro Corona», comentó Luis Flores, Gerente General.',
+        date: '25 de Marzo del 2024'
+    },
 ]
 
 // mision, vision y valores de la empresa
