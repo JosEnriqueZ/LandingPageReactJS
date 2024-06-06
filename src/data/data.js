@@ -1,13 +1,13 @@
 import { FiTrendingUp, BiBuildings,PiDrone ,BiBarChartSquare,BiCog,FaTruck, FaFire, FiDollarSign, FiCompass, FiCommand, FiBox, FiCamera, FiBell, FiMonitor } from '../assets/icons/vander'
 import client1 from '../assets/images/team/lasbambaslogo.jpg'
 // import client2 from '../assets/images/team/02.jpg'
-import client2 from '../assets/images/team/minsurlogo.jpg'
+import client2 from '../assets/images/team/antapaccay.png'
 // import client3 from '../assets/images/team/03.jpg'
-import client3 from '../assets/images/team/03.png'
+import client3 from '../assets/images/team/marcobre.png'
 // import client4 from '../assets/images/team/04.jpg'
-import client4 from '../assets/images/team/zafranallogo.jpg'
-import client5 from '../assets/images/team/antapaccay.png'
-import client6 from '../assets/images/team/06.jpg'
+import client4 from '../assets/images/team/angloamerican.jpg'
+import client5 from '../assets/images/team/gloria.png'
+import client6 from '../assets/images/team/queso.jpg'
 
 // import blog1 from '../assets/images/blog/01.jpg'
 import camion from '../assets/images/blog/camion.jpg'
@@ -115,27 +115,32 @@ export const clientData = [
     {
         image: client1,
         name: 'LAS BAMBAS',
-        title: 'Minera',
+        title: 'Minería',
     },
     {
         image: client2,
-        name: 'Minsur',
-        title: 'Minera',
+        name: 'ANTAPACCAY',
+        title: 'Minería',
     },
     {
         image: client3,
-        name: 'STRACON',
-        title: 'Minera',
+        name: 'MARCOBRE',
+        title: 'Minería',
     },
     {
         image: client4,
-        name: 'Zafranal',
-        title: 'Proyecto',
+        name: 'ANGLOAMERICAN',
+        title: 'Minería',
     },
     {
         image: client5,
-        name: 'Antapaccay',
-        title: 'Minera',
+        name: 'GLORIA',
+        title: 'Industrial',
+    },
+    {
+        image: client6,
+        name: 'QKALA´S',
+        title: 'Industrial',
     },
 ]
 // export const clientData = [

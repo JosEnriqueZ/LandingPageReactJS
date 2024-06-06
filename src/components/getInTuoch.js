@@ -10,14 +10,11 @@ export default function GetInTouch(){
                     <h3 className="font-semibold text-2xl leading-normal mb-4">CONTACTANOS </h3>
                     {/* TEXTO CONTACTANOS     */}
                     
-                    <p className="text-slate-500 max-w mx-auto">
-                    Ejecutivo comercial de Reparaciones & Mantenimiento &emsp&emsp   (Nombre: +51 999 999 999)</p>
-
-                    <p className="text-slate-600 max-w- mx-auto">
-                    Jefe Comercial & Propuesta     (Nombre: xxxx@siling.com.pe)</p>
+                    <p className="text-slate-800 max-w mx-auto">
+                    Área de gerencia   (gerencia@silingcorp.com.pe)</p>
 
                     <p className="text-slate-700 max-w- mx-auto">
-                    Ejecutivo comercial de Transporte Logístico/Carga Pesada/MATPEL    (Nombre: +51 999 999 999)</p>                    
+                    Área comercial (Cotización/Servicios)     (comercial@silingcorp.com.pe)</p>                 
 
                 </div>
 
@@ -56,6 +53,12 @@ export default function GetInTouch(){
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="grid grid-cols-1 text-center">
+                    <h3 className="font-semibold text-2xl leading-normal mb-4">TRABAJA CON NOSOTROS</h3>
+                    <p className="text-slate-600 max-w- mx-auto">
+                    Envianos tu CV a recursos.humanos@silingcorp.com.pe</p>                    
+
                 </div>
             </div>
         </section>
