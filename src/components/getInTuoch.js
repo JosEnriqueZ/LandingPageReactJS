@@ -5,12 +5,14 @@ import contact from '../assets/images/contact.webp'
 
 export default function GetInTouch(){
     const fromEmail ="notificacion@silingcorp.com.pe"
+    const toEmail ="recursos.humanos@silingcorp.com.pe"
     const [formData, setFormData] = useState({
         firstname: '',
         lastname: '',
         phone: '',
         email: '',
         from: fromEmail,
+        to: toEmail,
         subject: '',
         comments: ''
     });
