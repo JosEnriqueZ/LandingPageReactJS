@@ -31,6 +31,22 @@ import imagen3 from '../assets/images/img-mineria/perforacion.jpg'
 
 import logoabout from '../assets/images/logo180x55OLD.png'
 
+//silingcorp
+import silingcorp1 from '../assets/images/imgSilingCorp/Armado de Libro - Faja Las Bambas.webp'
+import silingcorp2 from '../assets/images/imgSilingCorp/Faja las bambas.webp'
+import silingcorp3 from '../assets/images/imgSilingCorp/Mantenimiento Mecanico - Cambio de Muelas Cahncadora de Quijada.webp'
+import silingcorp4 from '../assets/images/imgSilingCorp/Reunion - Mina.webp'
+import silingcorp5 from '../assets/images/imgSilingCorp/Servicio de vuelo con dron - Mineria.webp'
+import silingcorp6 from '../assets/images/imgSilingCorp/Servicio Mantto. Predicitivo.webp'
+import silingcorp7 from '../assets/images/imgSilingCorp/Sistema contra incendios cuarto bombas.webp'
+import silingcorp8 from '../assets/images/imgSilingCorp/Sistema contra incendios.webp'
+
+import silingcorpcarosel1 from '../assets/images/imgSilingCorp/XArmado-de-Libro---Faja-Las-Bambas.png'
+import silingcorpcarosel2 from '../assets/images/imgSilingCorp/XReunion---Mina.png'
+import silingcorpcarosel3 from '../assets/images/imgSilingCorp/XServicio-Mantto.-Predicitivo.png'
+import silingcorpcarosel4 from '../assets/images/imgSilingCorp/XServicio-de-vuelo-con-dron---Mineria.png'
+
+
 // datos sobre la empresa
 export const aboutData = {
     title: 'SILINGCORP',
@@ -98,19 +114,19 @@ export const servicesData = [
     },
 ]
 
-// imagenes del carrucel de la pagina principal
+// imagenes del carrucel de la pagina principal //////
 export const backgroundsHome = [
     {
         title: 'Manteniendo de Vias',
-        image: imagen1
+        image: silingcorpcarosel3
     },
     {
         title: 'Otros Servicios',
-        image: imagen2
+        image: silingcorpcarosel1
     },
     {
         title: 'Perforacion',
-        image: imagen3
+        image: silingcorpcarosel2
     }
 ]
 
@@ -158,21 +174,21 @@ export const blogData = [
     },
     {
         id: 2,
-        image: blog2,
+        image: silingcorp6,
         title: 'SILINGCORP apuesta por la transformación digital e innovación',
         desc: 'La transformación digital de SILINGCORP es un esfuerzo conjunto de todas las áreas de la empresa y estamos seguros que dará mucho valor a los equipos y nos permitirá afianzar nuestro proceso de transformación digital.',
         date: '25 de Mayo del 2024'
     },
     {
         id: 3,
-        image: blog3,
+        image: silingcorp7,
         title: 'SILINGCORP sigue innovando en infraestructura',
         desc: '«Esta adquisición refuerza nuestro compromiso con la excelencia operativa y la satisfacción de nuestros clientes. Los camiones Volvo FMX-R Max son conocidos por su durabilidad y rendimiento, lo que los convierte en la elección ideal para las exigencias de nuestro proyecto en Cerro Corona», comentó Luis Flores, Gerente General.',
         date: '15 de Marzo del 2024'
     },
     {
         id: 4,
-        image: blog3,
+        image: silingcorp8,
         title: 'SILINGCORP sigue innovando en infraestructura 2',
         desc: '«Esta adquisición refuerza nuestro compromiso con la excelencia operativa y la satisfacción de nuestros clientes. Los camiones Volvo FMX-R Max son conocidos por su durabilidad y rendimiento, lo que los convierte en la elección ideal para las exigencias de nuestro proyecto en Cerro Corona», comentó Luis Flores, Gerente General.',
         date: '25 de Marzo del 2024'
@@ -183,18 +199,18 @@ export const blogData = [
 export const mision= {
     title: 'MISIÓN',
     desc: 'Proveer soluciones inteligentes, innovadoras y seguras que agreguen valor a nuestros clientes. Nos dedicamos a optimizar cada proyecto con un enfoque en la eficiencia, la calidad y la sostenibilidad, asegurando el éxito y la satisfacción de nuestros clientes en cada etapa del proceso.',
-    img:camion
+    img:silingcorpcarosel4
 }
 export const vision = {
     title: 'VISIÓN',
     desc: 'Posicionar a Siling Corp como la empresa contratista local más confiable y respetada en servicios de Ingeniería, y Operación y Mantenimiento para proyectos electromecánicos y civiles en el sur del Perú. Nos esforzamos por ser reconocidos por nuestra excelencia, compromiso y capacidad para superar las expectativas de nuestros clientes.',
-    img:blog2
+    img:silingcorpcarosel3
 }
 export const valores = [
     {
         title: 'Responsabilidad y confianza',
         desc: 'Cumplir con nuestros compromisos y trabajar para cuidar nuestra reputación, como una empresa confiable.',
-        img:blog3
+        img:silingcorpcarosel2
     },
     {
         title: 'Identidad Cultural',

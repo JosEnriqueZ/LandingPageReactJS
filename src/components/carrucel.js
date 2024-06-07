@@ -37,7 +37,7 @@ export default function Carrucel() {
                         {backgroundsHome.map((item, index) => {
                             return (
                                 <div className="tiny-slide" key={index}>
-                                    <img className="min-w-full min-h-full w-auto h-[410px] lg:h-auto object-cover" src={item.image} alt="" />
+                                    <img className="min-w-full min-h-full w-auto h-[410px] lg:h-full object-cover" src={item.image} alt="" />
                                 </div>
                             )
                         })}

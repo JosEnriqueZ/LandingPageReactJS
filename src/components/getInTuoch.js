@@ -26,7 +26,7 @@ export default function GetInTouch(){
                     <div className="lg:col-span-5 md:col-span-6">
                         <div className="lg:ms-5">
                             <div className="bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-gray-700 p-6">
-                                <form>
+                                <form method="post" >
                                     <div className="grid lg:grid-cols-12 grid-cols-1 gap-3">
                                         <div className="lg:col-span-6">
                                             <label htmlFor="name" className="font-semibold">Nombre:</label>
@@ -58,7 +58,6 @@ export default function GetInTouch(){
                     <h3 className="font-semibold text-2xl leading-normal mb-4">TRABAJA CON NOSOTROS</h3>
                     <p className="text-slate-600 max-w- mx-auto">
                     Envianos tu CV a recursos.humanos@silingcorp.com.pe</p>                    
-
                 </div>
             </div>
         </section>

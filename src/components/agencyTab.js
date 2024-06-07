@@ -6,6 +6,22 @@ import blog1 from '../assets/images/blog/camion.jpg'
 // import blog2 from '../assets/images/blog/02.jpg'
 import blog2 from '../assets/images/blog/02.jpeg'
 import blog3 from '../assets/images/blog/03.jpg'
+
+//silingcorp
+import silingcorp1 from '../assets/images/imgSilingCorp/Armado de Libro - Faja Las Bambas.webp'
+import silingcorp2 from '../assets/images/imgSilingCorp/Faja las bambas.webp'
+import silingcorp3 from '../assets/images/imgSilingCorp/Mantenimiento Mecanico - Cambio de Muelas Cahncadora de Quijada.webp'
+import silingcorp4 from '../assets/images/imgSilingCorp/Reunion - Mina.webp'
+import silingcorp5 from '../assets/images/imgSilingCorp/Servicio de vuelo con dron - Mineria.webp'
+import silingcorp6 from '../assets/images/imgSilingCorp/Servicio Mantto. Predicitivo.webp'
+import silingcorp7 from '../assets/images/imgSilingCorp/Sistema contra incendios cuarto bombas.webp'
+import silingcorp8 from '../assets/images/imgSilingCorp/Sistema contra incendios.webp'
+
+import silingcorpcarosel1 from '../assets/images/imgSilingCorp/XArmado-de-Libro---Faja-Las-Bambas.png'
+import silingcorpcarosel2 from '../assets/images/imgSilingCorp/XReunion---Mina.png'
+import silingcorpcarosel3 from '../assets/images/imgSilingCorp/XServicio-Mantto.-Predicitivo.png'
+import silingcorpcarosel4 from '../assets/images/imgSilingCorp/XServicio-de-vuelo-con-dron---Mineria.png'
+
 import { mision,vision,valores } from "../data/data";
 
 export default function AgencyTab() {
@@ -51,7 +67,7 @@ export default function AgencyTab() {
                     <div className="lg:col-span-8 md:col-span-7">
                         <div id="myTabContent" className="p-6 bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 rounded-md">
                             <div className={activeIndex === 1 ? '' : 'hidden'}>
-                                <img src={blog1} className="shadow dark:shadow-gray-700 rounded-md" alt="" />
+                                <img src={silingcorpcarosel4} className="shadow dark:shadow-gray-700 rounded-md" alt="" />
 
                                 <div className="mt-6">
                                     <h5 className="text-lg font-medium">MISIÓN</h5>
@@ -62,7 +78,7 @@ export default function AgencyTab() {
                                 </div>
                             </div>
                             <div className={activeIndex === 2 ? '' : 'hidden'}>
-                                <img src={blog2} className="shadow dark:shadow-gray-700 rounded-md" alt="" />
+                                <img src={silingcorpcarosel3} className="shadow dark:shadow-gray-700 rounded-md" alt="" />
 
                                 <div className="mt-6">
                                     <h5 className="text-lg font-medium">VISIÓN</h5>
@@ -73,7 +89,7 @@ export default function AgencyTab() {
                                 </div>
                             </div>
                             <div className={activeIndex === 3 ? '' : 'hidden'}>
-                                <img src={blog3} className="shadow dark:shadow-gray-700 rounded-md" alt="" />
+                                <img src={silingcorpcarosel2} className="shadow dark:shadow-gray-700 rounded-md" alt="" />
 
                                 <div className="mt-6">
                                     <h5 className="text-lg font-medium">NUESTROS VALORES</h5>
