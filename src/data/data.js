@@ -9,7 +9,7 @@ import client3 from '../assets/images/team/marcobre.png'
 // import client4 from '../assets/images/team/04.jpg'
 import client4 from '../assets/images/team/angloamerican.jpg'
 import client5 from '../assets/images/team/gloria.png'
-import client6 from '../assets/images/team/queso.jpg'
+import client6 from '../assets/images/team/qkalas.png'
 
 import camion from '../assets/images/blog/camion.jpg'
 

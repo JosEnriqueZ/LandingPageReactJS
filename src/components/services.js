@@ -8,9 +8,9 @@ export default function Services() {
             <div className="container relative">
                 <div className="grid grid-cols-1 pb-6 text-center">
                     <h3 className="font-semibold text-2xl leading-normal mb-4">Nuestros Servicios</h3>
-                    <Link to="/" className="inline-block bg-teal-500 text-white font-bold py-2 px-4 rounded mx-auto text-center">
-                        Brochure
-                    </Link>
+                    <a href="https://silingcorp.com.pe/documents/Siling_Corp_Page.pdf" target="_blank" className="inline-block bg-teal-500 text-white font-bold py-2 px-4 rounded mx-auto text-center">
+                    Brochure
+                    </a>
                 </div>
                 <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-6 mt-6">
                     {servicesData.map((item, index) => {
@@ -27,8 +27,8 @@ export default function Services() {
                                         <Link to={"/detail/service/" + item.id} className="text-teal-500">Leer más <i className="mdi mdi-chevron-right align-middle"></i></Link>
                                     </div>
                                 </div>
-                                <div className="absolute bottom-0 -end-16">
-                                    <Icon className="w-48 h-48 text-teal-500 opacity-[0.04] dark:opacity-[0.04] group-hover:opacity-10 duration-500"></Icon>
+                                <div className="absolute bottom-0 -end-0 md:-end-16">
+                                    <Icon className="w-48 h-48 text-teal-500 opacity-[0.40] dark:opacity-[0.40] group-hover:opacity-10 duration-500"></Icon>
                                 </div>
                             </div>
                         );
