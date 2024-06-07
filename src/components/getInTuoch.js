@@ -25,15 +25,16 @@ export default function GetInTouch(){
             const response = await fetch('https://email.silingcorp.com.pe/send-email', {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*',
                 },
                 body: JSON.stringify(formData)
             });
-            const result = await response.json();
+            const result = await response.status === 200 ? { message: 'Mensaje enviado correctamente' } : { message: 'Error al enviar el mensaje' };
             alert(result.message);
         } catch (error) {
             console.error('Error:', error);
-            alert('Error al enviar el mensaje');
+            alert('Error VALIDAR');
         }
     };
     return(
