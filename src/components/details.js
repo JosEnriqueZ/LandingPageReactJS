@@ -72,7 +72,7 @@ export default function Details() {
                                         ))
                                 )
                             ) : (
-                                <div>
+                                <div className="text-justify">
                                     {content.desc.split('\n').map((line, index) => (
                                         <React.Fragment key={index}>
                                             {line.includes("Historia") ? (

@@ -195,13 +195,13 @@ Es una fiesta de agradecimiento a la tierra y a los recursos que ella brinda. Es
         desc: `Como un compromiso de mejora constante para obtener mejores trabajos y la máxima satisfacción de nuestros clientes tuvimos la capacitación de nuestros pilotos de Drone por parte de la marca DJ para mejorar los videos geográficos y tomas de muestra con análisis infrarrojo, SILING CORP a la vanguardia de la tecnología`,
         date: '22 de Marzo del 2024'
     },
-    {
-        id: 4,
-        image: silingcorp8,
-        title: 'SILINGCORP sigue innovando en infraestructura',
-        desc: '«Esta adquisición refuerza nuestro compromiso con la excelencia operativa y la satisfacción de nuestros clientes. Los camiones Volvo FMX-R Max son conocidos por su durabilidad y rendimiento, lo que los convierte en la elección ideal para las exigencias de nuestro proyecto en Cerro Corona», comentó Luis Flores, Gerente General.',
-        date: '25 de Marzo del 2024'
-    },
+    // {
+    //     id: 4,
+    //     image: silingcorp8,
+    //     title: 'SILINGCORP sigue innovando en infraestructura',
+    //     desc: '«Esta adquisición refuerza nuestro compromiso con la excelencia operativa y la satisfacción de nuestros clientes. Los camiones Volvo FMX-R Max son conocidos por su durabilidad y rendimiento, lo que los convierte en la elección ideal para las exigencias de nuestro proyecto en Cerro Corona», comentó Luis Flores, Gerente General.',
+    //     date: '25 de Marzo del 2024'
+    // },
 ]
 
 // mision, vision y valores de la empresa
