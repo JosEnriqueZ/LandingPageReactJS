@@ -58,7 +58,7 @@ export default function Blogs() {
                                         <div className="mt-6">
                                             <div className="flex mb-4">
                                                 <span className="flex items-center text-slate-400 text-sm"><FiCalendar className="size-4 text-slate-900 dark:text-white me-1.5" />{item.date}</span>
-                                                <span className="flex items-center text-slate-400 text-sm ms-3"><FiClock className="size-4 text-slate-900 dark:text-white me-1.5" />3 minutos de lectura</span>
+                                                <span className="flex items-center text-slate-400 text-sm ms-3"><FiClock className="size-4 text-slate-900 dark:text-white me-1.5" />2 minutos de lectura</span>
                                             </div>
 
                                             <Link to="" className="title text-lg font-semibold hover:text-teal-500 duration-500 ease-in-out">{item.title}</Link>

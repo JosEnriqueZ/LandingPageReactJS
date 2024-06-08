@@ -1,5 +1,5 @@
 // iconos de los servicios
-import { FaFileContract,BiWrench, BiBuildings,PiDrone ,BiBarChartSquare,BiCog,FaTruck, FaFire } from '../assets/icons/vander'
+import { FaFileContract, BiWrench, BiBuildings, PiDrone, BiBarChartSquare, BiCog, FaTruck, FaFire } from '../assets/icons/vander'
 
 import client1 from '../assets/images/team/lasbambaslogo.jpg'
 // import client2 from '../assets/images/team/02.jpg'
@@ -58,7 +58,7 @@ export const aboutData = {
 export const servicesData = [
     {
         id: 1,
-        icon: FaFileContract ,
+        icon: FaFileContract,
         img: client1,
         title: 'Arrendamiento',
         desc: 'Como contratistas locales brindamos el servicio de alquiler de camionetas y camiones de bajo tonelaje, unidades equipadas y homologadas para el servicio dentro de la gran minería, y proyectos industriales. En maquina seca o con conductor,contamos con personal certificado en manejo defensivo por la National Safety Council.'
@@ -168,49 +168,58 @@ export const blogData = [
     {
         id: 1,
         image: blog1,
-        title: 'Nuestra IMAGEN Nueva',
-        desc: 'SILINGCORP Como parte de un grupo de grandes empresas mineras, transformamos nuestra imagen más actualizada y versátil. Para mostrar nuestra nueva filosofía de SUMA, la que compartimos TODOS dentro de la compañía y con nuestros clientes. ',
-        date: '01 de Junio del 2024'
+        title: 'SILING CORP ORGULLOSOS DE LO NUESTRO',
+        desc: `Desde que tenemos memoria cada 15 de mayo nuestro pueblo de Lluta celebra a San Isidro Labrador, patrono de la agricultura y ganadería, así como de nuestra empresa es por eso reflejado también en nuestro nombre.
+ Este año no podía ser la excepción unida a la Feria Agropecuaria de Lluta del 13 al 16 de mayo.
+Las celebraciones destacan desde el día 14 de mayo con la celebración de la entrada de caballos, quema de capo, misa de vísperas, encendido de fuegos artificiales y el compartir junto con las bandas de músicos.
+El día 15 se celebra la fiesta central iniciando con el Izamiento de la bandera nacional misa de Fiesta procesión y en la tarde nuestra corrida de toros todo a devoción de los mayordomos
+Este año los mayordomos de fiesta son Nolberto Huanqui y Esposa
+`,
+        date: '12 de Mayo del 2024'
     },
     {
         id: 2,
         image: silingcorp6,
-        title: 'SILINGCORP apuesta por la transformación digital e innovación',
-        desc: 'La transformación digital de SILINGCORP es un esfuerzo conjunto de todas las áreas de la empresa y estamos seguros que dará mucho valor a los equipos y nos permitirá afianzar nuestro proceso de transformación digital.',
-        date: '25 de Mayo del 2024'
+        title: 'La Ccascca de Lluta',
+        desc: `La Ccascca es una tradición de Lluta que convoca a las familias de Taya , durante los primeros días de agosto, para limpiar el canal principal que abastece de agua a los campos de cultivo.
+
+Es una fiesta de agradecimiento a la tierra y a los recursos que ella brinda. Este cuidado por el agua es un valor que compartimos.
+¡¡¡En el 2023 fue emotivo como cada año, Hasta el 2024!!!
+`,
+        date: '10 de Enero del 2024'
     },
     {
         id: 3,
         image: silingcorp7,
-        title: 'SILINGCORP sigue innovando en infraestructura',
-        desc: '«Esta adquisición refuerza nuestro compromiso con la excelencia operativa y la satisfacción de nuestros clientes. Los camiones Volvo FMX-R Max son conocidos por su durabilidad y rendimiento, lo que los convierte en la elección ideal para las exigencias de nuestro proyecto en Cerro Corona», comentó Luis Flores, Gerente General.',
-        date: '15 de Marzo del 2024'
+        title: 'Capacitando a nuestro Equipo',
+        desc: `Como un compromiso de mejora constante para obtener mejores trabajos y la máxima satisfacción de nuestros clientes tuvimos la capacitación de nuestros pilotos de Drone por parte de la marca DJ para mejorar los videos geográficos y tomas de muestra con análisis infrarrojo, SILING CORP a la vanguardia de la tecnología`,
+        date: '22 de Marzo del 2024'
     },
     {
         id: 4,
         image: silingcorp8,
-        title: 'SILINGCORP sigue innovando en infraestructura 2',
+        title: 'SILINGCORP sigue innovando en infraestructura',
         desc: '«Esta adquisición refuerza nuestro compromiso con la excelencia operativa y la satisfacción de nuestros clientes. Los camiones Volvo FMX-R Max son conocidos por su durabilidad y rendimiento, lo que los convierte en la elección ideal para las exigencias de nuestro proyecto en Cerro Corona», comentó Luis Flores, Gerente General.',
         date: '25 de Marzo del 2024'
     },
 ]
 
 // mision, vision y valores de la empresa
-export const mision= {
+export const mision = {
     title: 'MISIÓN',
     desc: 'Proveer soluciones inteligentes, innovadoras y seguras que agreguen valor a nuestros clientes. Nos dedicamos a optimizar cada proyecto con un enfoque en la eficiencia, la calidad y la sostenibilidad, asegurando el éxito y la satisfacción de nuestros clientes en cada etapa del proceso.',
-    img:silingcorpcarosel4
+    img: silingcorpcarosel4
 }
 export const vision = {
     title: 'VISIÓN',
     desc: 'Posicionar a Siling Corp como la empresa contratista local más confiable y respetada en servicios de Ingeniería, y Operación y Mantenimiento para proyectos electromecánicos y civiles en el sur del Perú. Nos esforzamos por ser reconocidos por nuestra excelencia, compromiso y capacidad para superar las expectativas de nuestros clientes.',
-    img:silingcorpcarosel3
+    img: silingcorpcarosel3
 }
 export const valores = [
     {
         title: 'Responsabilidad y confianza',
         desc: 'Cumplir con nuestros compromisos y trabajar para cuidar nuestra reputación, como una empresa confiable.',
-        img:silingcorpcarosel2
+        img: silingcorpcarosel2
     },
     {
         title: 'Identidad Cultural',
