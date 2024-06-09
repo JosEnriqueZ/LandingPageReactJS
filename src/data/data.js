@@ -41,10 +41,25 @@ import silingcorp6 from '../assets/images/imgSilingCorp/Servicio Mantto. Predici
 import silingcorp7 from '../assets/images/imgSilingCorp/Sistema contra incendios cuarto bombas.webp'
 import silingcorp8 from '../assets/images/imgSilingCorp/Sistema contra incendios.webp'
 
+//Services
+import silingservice1 from '../assets/images/imgSilingCorp/arrendamiento.png'
+import silingservice2 from '../assets/images/imgSilingCorp/mantenimientoplanta.png'
+import silingservice3 from '../assets/images/imgSilingCorp/sistemasincendios.png'
+import silingservice4 from '../assets/images/imgSilingCorp/obrasciviles.png'
+import silingservice5 from '../assets/images/imgSilingCorp/ndt.png'
+import silingservice6 from '../assets/images/imgSilingCorp/analisisestructurales.png'
+import silingservice7 from '../assets/images/imgSilingCorp/proyectosindustriales.png'
+import silingservice8 from '../assets/images/imgSilingCorp/transporte.png'
+import silingservice9 from '../assets/images/imgSilingCorp/ANIOS.png'
+
 import silingcorpcarosel1 from '../assets/images/imgSilingCorp/XArmado-de-Libro---Faja-Las-Bambas.png'
 import silingcorpcarosel2 from '../assets/images/imgSilingCorp/XReunion---Mina.png'
 import silingcorpcarosel3 from '../assets/images/imgSilingCorp/XServicio-Mantto.-Predicitivo.png'
 import silingcorpcarosel4 from '../assets/images/imgSilingCorp/XServicio-de-vuelo-con-dron---Mineria.png'
+
+import silingcorpcarosel5 from '../assets/images/imgSilingCorp/orgullosos.png'
+import silingcorpcarosel6 from '../assets/images/imgSilingCorp/ccasca.png'
+import silingcorpcarosel7 from '../assets/images/imgSilingCorp/capacitandonos.png'
 
 
 // datos sobre la empresa
@@ -59,58 +74,93 @@ export const servicesData = [
     {
         id: 1,
         icon: FaFileContract,
-        img: client1,
+        img: silingservice1,
         title: 'Arrendamiento',
         desc: 'Como contratistas locales brindamos el servicio de alquiler de camionetas y camiones de bajo tonelaje, unidades equipadas y homologadas para el servicio dentro de la gran minería, y proyectos industriales. En maquina seca o con conductor,contamos con personal certificado en manejo defensivo por la National Safety Council.'
     },
     {
         id: 2,
         icon: BiWrench,
-        img: client1,
+        img: silingservice2,
         title: 'Servicios de Mantenimiento de Planta',
         desc: 'Brindamos el mantenimiento predictivo preventivo y correctivo de los equipos de planta minera e industriales. Contamos con experiencia en plantas concentradoras en gran minería y plantas procesadoras de alimentos'
     },
     {
         id: 3,
         icon: FaFire,
-        img: client1,
+        img: silingservice3,
         title: 'Sistema contra incendios',
-        desc: 'Ofrecemos el servicio de instalación y mantenimiento de sistemas contra incendios de acuerdos alas normas NFPA asi como la ingeniería y equipos de alarma contra incendio tableros eléctricos, tableros de control.'
+        desc: 'Ofrecemos el servicio de instalación y mantenimiento de sistemas contra incendios de acuerdos a las normas NFPA así como la ingeniería y equipos de alarma contra incendio tableros eléctricos, paneles de control. Con participación activa en el proyecto: puesta en marcha del centro de mantenimiento aeronáutico del ejercito , CEMAE en la joya-cocachacra\n'
++'Con participación activa en el proyecto: puesta en marcha del centro de mantenimiento aeronáutico del ejercito , CEMAE en la joya-cocachacra.\n'
++'-Mantenimiento de sistema de agua contra incendio.\n'
++'-Sistemas de agente limpio, sistemas de espuma, habilitación de extintores.\n'
++'-Mantenimiento de sistemas de alarma contra incendio y detectores de humo.\n'
++'-Mantenimiento de bomba contra incendio CLARKE.\n'
++'-Instalación de tableros de control contra incendio MIRCOM y SIMPLEX.\n'
+
     },
     {
         id: 4,
         icon: BiBuildings,
-        img: client1,
+        img: silingservice4,
         title: 'Obras Civiles',
-        desc: 'Brindamos el movimiento de tierras para la construcción de carreteras y edificaciones con amplia experiencia en el área de construcción y obras civiles contamos con maquinaria y personal de respaldo.'
+        desc: 'Brindamos el movimiento de tierras para la construcción de edificaciones, cercos perimétricos con experiencia en el área de construcción y obras civiles contamos con maquinaria y personal de respaldo.\n'
+        +'Nuestra participación activa en el proyecto: puesta en marcha del centro de mantenimiento aeronáutico del ejército, CEMAE en la joya-cocachacra\n'
+        +'-Instalacion de tuberías HDPE.\n'
+        +'-Unión de tuberías HDPE por termofusión con pruebas de resistencia y elasticidad.\n'
+        +'-Habilitación del sistema de riego de todo el centro de mantenimiento Aeronáutico.\n'
     },
     {
         id: 5,
         icon: PiDrone,
-        img: client1,
+        img: silingservice5,
         title: 'Servicios NDT y Filmacion con Drone',
-        desc: 'Realizamos ensayos NDT, elaboración de dosier de calidad contamos con certificación nivel II en ultrasonido, tintes penetrantes,análisis vibracional,medición de espesor de pinturas, inspección de soldadura'
+        desc: 'Realizamos ensayos NDT, elaboración de dosier de calidad contamos con certificación nivel II en ultrasonido, tintes penetrantes, análisis vibracional, medición de espesor de pinturas, inspección de soldadura.\n'
+        +'\n-Pruebas de Ultrasonido con equipos SIUI (UT).'
+        +'\n-Pruebas de tintes penetrantes (PT).'
+        +'\n-Pruebas de inspección visual (VT).'
+        +'\n-Pruebas de partículas magnéticas MAGNAFLUX fluorescentes y no fluorescentes.'
+        +'\n-Pruebas de tracción, fuga, doblez y corte en uniones por termofusión.'
+        +'\n- Filmación con drones DJI para documentar avances de proyectos, y escaneo 3D geográficos.'
     },
     {
         id: 6,
         icon: BiBarChartSquare,
-        img: client1,
+        img: silingservice6,
         title: 'Analisis Estructural y Fabricaciones',
-        desc: 'Realizamos el estudio análisis y simulación de estructuras con CAD CAM  y CAE trabajos ralizados como chutes y tolvas plataformas de mantenimiento cercos y concertinas zarandas estáticas naves industriales techos campamentos.'
+        desc: 'Realizamos el estudio análisis y simulación de estructuras con CAD CAM  y CAE trabajos realizados como:\n'
+        +'\n-Chutes y tolvas.'
+        +'\n-Plataformas de mantenimiento.'
+        +'\n-Cercos y concertinas.'
+        +'\n-Naves industriales.'
+        +'\n-Techos campamentos, en gran minería.'
+
     },
     {
         id: 7,
         icon: BiCog,
-        img: client1,
+        img: silingservice7,
         title: 'Proyectos Industriales',
-        desc: 'Realizamos la fabricación de estructuras para la industria alimentaria, en material inox, tableros eléctricos sistemas de refrigeración, tuberías, tinas doble o, intercambiadores de calor, energías renovables'
+        desc: 'Realizamos la fabricación de estructuras para la industria alimentaria, nuestra experiencia en:\n'
+        +'\n-Material ACERO INOXIDABE 304, 316 y 3161L.'
+        +'\n-Tableros eléctricos sistemas de refrigeración, cámaras frigoríficas.'
+        +'\n-Tuberías en cedula y OD, tinas dobles o, Sistemas automatizados de lavado de envases.'
+        +'\n-Intercambiadores de calor de tubos y de placas para la industria láctea.'
+        +'\n-Energías renovables, sistemas solares fotovoltaicos para calderos.'
+        
     },
     {
         id: 8,
         icon: FaTruck,
-        img: client1,
+        img: silingservice8,
         title: 'Transporte',
-        desc: 'Se realiza el transporte de personal y carga a nivel regional, nuestras rutas. Arequipa, Pedregal Majes, Huancarqui, Lluta.'
+        desc: 'Se realiza el transporte de personal y carga a nivel regional:\n'
+         +'\n-Nuestras rutas.'
+         +'\n-Arequipa.'
+         +'\n-Pedregal Majes.'
+         +'\n-Huancarqui.'
+         +'\n-Lluta.'
+        
     },
 ]
 
@@ -169,6 +219,15 @@ export const blogData = [
         id: 1,
         image: blog1,
         title: 'SILING CORP ORGULLOSOS DE LO NUESTRO',
+        desc: `SILINGCORP se renueva. Después de 5 años de amplia experiencia en servicios integrados para minería, infraestructura y edificaciones, seguimos dándoles más. Como parte de un grupo de grandes empresas, transformamos nuestra imagen. 
+        Siempre acompañado de la atención más cercana, amable, inmediata y comprometida.
+`,
+        date: '01 de Mayo del 2024'
+    },
+    {
+        id: 2,
+        image: silingcorpcarosel5,
+        title: 'SILING CORP ORGULLOSOS DE LO NUESTRO',
         desc: `Desde que tenemos memoria cada 15 de mayo nuestro pueblo de Lluta celebra a San Isidro Labrador, patrono de la agricultura y ganadería, así como de nuestra empresa es por eso reflejado también en nuestro nombre.
  Este año no podía ser la excepción unida a la Feria Agropecuaria de Lluta del 13 al 16 de mayo.
 Las celebraciones destacan desde el día 14 de mayo con la celebración de la entrada de caballos, quema de capo, misa de vísperas, encendido de fuegos artificiales y el compartir junto con las bandas de músicos.
@@ -178,8 +237,8 @@ Este año los mayordomos de fiesta son Nolberto Huanqui y Esposa
         date: '12 de Mayo del 2024'
     },
     {
-        id: 2,
-        image: silingcorp6,
+        id: 3,
+        image: silingcorpcarosel6,
         title: 'La Ccascca de Lluta',
         desc: `La Ccascca es una tradición de Lluta que convoca a las familias de Taya , durante los primeros días de agosto, para limpiar el canal principal que abastece de agua a los campos de cultivo.
 
@@ -189,8 +248,8 @@ Es una fiesta de agradecimiento a la tierra y a los recursos que ella brinda. Es
         date: '10 de Enero del 2024'
     },
     {
-        id: 3,
-        image: silingcorp7,
+        id: 4,
+        image: silingcorpcarosel7,
         title: 'Capacitando a nuestro Equipo',
         desc: `Como un compromiso de mejora constante para obtener mejores trabajos y la máxima satisfacción de nuestros clientes tuvimos la capacitación de nuestros pilotos de Drone por parte de la marca DJ para mejorar los videos geográficos y tomas de muestra con análisis infrarrojo, SILING CORP a la vanguardia de la tecnología`,
         date: '22 de Marzo del 2024'

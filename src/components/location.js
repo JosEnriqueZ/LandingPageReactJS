@@ -5,7 +5,7 @@ export default function Location() {
     <section className="relative md:py-24 py-16 bg-gradient-to-b from-teal-400 to-teal-500">
       <div className="container relative">
         <h3 className="font-semibold text-2xl leading-normal text-white mt-2 text-center">
-          Nuestra Localizacion
+          Nuestra Localización
         </h3>
         <div className="grid lg:grid-cols-2 md:grid-cols-1 mt-8">
           <div className="flex justify-center w-full h-48 md:h-[25vh] md:w-full lg:h-[30vh] lg:w-[50%] relative">
@@ -23,9 +23,17 @@ export default function Location() {
           </div>
           <div className="flex justify-center w-full">
             <div className="lg:mt-4 lg:mb-16 lg:ml-16">
-              <p className="text-white text-lg  mt-8">Nos ubicamos en el distrito de Lluta, provincia de Caylloma</p>
-              <p className="text-white text-xl"><strong>Direccion:</strong> C. P. La colina E 13, Carretera a Lluta, Distrito de Majes Provincia: Caylloma</p>
+              <p className="text-white text-lg  mt-8" ><strong>Oficina central:</strong> </p>
+              <p className="text-white text-xl"><strong>Distrito de Lluta, provincia de Caylloma</strong> 
+              </p>
+              <p className="text-white text-xl">Calle Unión S/N a tres cuadras de la plaza principal</p>
+
+              <p className="text-white text-lg  mt-8"><strong>Oficina  de operaciones Majes:</strong></p>
+              <p className="text-white text-xl"><strong>La Colina E13, Carretera a Lluta, Distrito de Majes</strong> 
+              </p>
+              <p className="text-white text-xl">Provincia de Caylloma</p>
             </div>
+
           </div>
         </div>
 

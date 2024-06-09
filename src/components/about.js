@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import aboutImage from '../assets/images/about.jpg'
-import aboutImage from '../assets/images/carguio.jpg'
+// import aboutImage from '../assets/images/carguio.jpg'
+import silingservice9 from '../assets/images/imgSilingCorp/ANIOS.png'
+import silingservice10 from '../assets/images/imgSilingCorp/ANIOS2.png'
+
 
 
 import CountUp from 'react-countup';
@@ -14,12 +17,12 @@ export default function About(){
                     <div className="md:col-span-6">
                         <div className="lg:me-8">
                             <div className="relative">
-                                <img src={aboutImage} className="rounded-full shadow dark:shadow-gray-700" alt=""/>
+                                <img src={silingservice10} className="rounded-full shadow dark:shadow-gray-700" alt=""/>
 
                                 <div className="absolute top-1/2 -translate-y-1/2 start-0 end-0 mx-auto size-56 flex justify-center items-center bg-white dark:bg-slate-900 rounded-full shadow dark:shadow-gray-700">
                                     <div className="text-center">
-                                        <span className="text-teal-500 text-2xl font-semibold mb-0 block"><CountUp className="counter-value text-6xl font-semibold" start={0} end={8}/>+</span>
-                                        <span className="font-semibold block mt-2">AÑOS <br/> EXPERIENCIA</span>
+                                        <span className="text-teal-500 text-2xl font-semibold mb-0 block">+<CountUp className="counter-value text-4xl font-semibold" start={0} end={20000}/>HH</span>
+                                        <span className="font-semibold block mt-2">EN INGENIERÍA BÁSICA <br/>Y DE DETALLE</span>
                                     </div>
                                 </div>
                             </div>

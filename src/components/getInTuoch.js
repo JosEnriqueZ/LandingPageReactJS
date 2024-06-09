@@ -2,6 +2,7 @@ import React from "react";
 // import contact from '../assets/images/contact.svg'
 import { useState } from 'react';
 import contact from '../assets/images/contact.webp'
+import contact2 from '../assets/images/imgSilingCorp/CONTACTANOS.png'
 
 export default function GetInTouch(){
     const fromEmail ="notificacion@silingcorp.com.pe"
@@ -54,7 +55,7 @@ export default function GetInTouch(){
 
                 <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
                     <div className="lg:col-span-7 md:col-span-6">
-                        <img src={contact} alt=""/>
+                        <img src={contact2} alt=""/>
                     </div>
 
                     <div className="lg:col-span-5 md:col-span-6">
@@ -96,6 +97,7 @@ export default function GetInTouch(){
                         </div>
                     </div>
                 </div>
+                <br></br>
                 <div className="grid grid-cols-1 text-center">
                     <h3 className="font-semibold text-2xl leading-normal mb-4">TRABAJA CON NOSOTROS</h3>
                     <p className="text-slate-600 max-w- mx-auto">
