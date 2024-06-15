@@ -1,7 +1,7 @@
 import React from "react";
 // import contact from '../assets/images/contact.svg'
 import { useState } from 'react';
-import contact from '../assets/images/contact.webp'
+//import contact from '../assets/images/contact.webp'
 import contact2 from '../assets/images/imgSilingCorp/CONTACTANOS.png'
 
 export default function GetInTouch(){
@@ -15,7 +15,8 @@ export default function GetInTouch(){
         from: fromEmail,
         to: toEmail,
         subject: '',
-        comments: ''
+        comments: '',
+        honeypot: ''  // Añadir el campo honeypot
     });
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -89,6 +90,11 @@ export default function GetInTouch(){
                                         <div className="lg:col-span-12">
                                             <label htmlFor="comments" className="font-semibold">Comentario:</label>
                                             <textarea name="comments" id="comments" value={formData.comments} onChange={handleChange} className="mt-2 w-full py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0" placeholder="Mensaje :"></textarea>
+                                        </div>
+                                        {/* Campo honeypot oculto */}
+                                        <div style={{ display: 'none' }}>
+                                            <label htmlFor="honeypot">No llenar este campo:</label>
+                                            <input name="honeypot" id="honeypot" type="text" value={formData.honeypot} onChange={handleChange}/>
                                         </div>
                                     </div>
                                     <button type="submit" id="submit" name="send" className="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white mt-2">Enviar Mensaje</button>
