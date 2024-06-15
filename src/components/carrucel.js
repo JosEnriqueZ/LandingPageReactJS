@@ -55,7 +55,7 @@ export default function Carrucel() {
                             channel="youtube"
                             youtube={{ mute: 0, autoplay: 0 }}
                             isOpen={isOpen}
-                            videoId="RnPlcQyH4yM"
+                            videoId="TmGga93REHE"
                             onClose={() => setOpen(false)}
                         />
                         <div className="text-center">
@@ -64,7 +64,7 @@ export default function Carrucel() {
                             </Link>
                         </div>
 
-                        <h4 className="text-white font-semibold lg:leading-normal leading-normal tracking-wide text-xl lg:text-5xl my-5">Nosotros colaboramos fácil y rápido</h4>
+                        <h4 className="text-white font-semibold lg:leading-normal leading-normal tracking-wide text-xl lg:text-5xl my-5">Brindando esfuerzos, sumamos soluciones</h4>
 
                     </div>
                 </div>

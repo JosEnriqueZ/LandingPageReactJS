@@ -32,7 +32,8 @@ export default function AgencyTab() {
                 <div className="grid grid-cols-1 pb-6 text-center">
                     <h3 className="font-semibold text-2xl leading-normal mb-4">SILINGCORP, servicios e ingeniería</h3>
 
-                    <p className="text-slate-400 max-w-xl mx-auto">Somos una empresa con 10 años de experiencia, especializada en servicios mineros</p>
+                    <p className="text-slate-400 max-w-xl mx-auto">Somos una empresa con +20,000HH EN INGENIERÍA BÁSICA Y DE DETALLE
+                    </p>
                 </div>
 
                 <div className="grid md:grid-cols-12 grid-cols-1 mt-6 gap-6">

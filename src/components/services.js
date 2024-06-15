@@ -8,7 +8,7 @@ export default function Services() {
             <div className="container relative">
                 <div className="grid grid-cols-1 pb-6 text-center">
                     <h3 className="font-semibold text-2xl leading-normal mb-4">Nuestros Servicios</h3>
-                    <a href="https://silingcorp.com.pe/documents/Siling_Corp_Page.pdf" target="_blank" className="inline-block bg-teal-500 text-white font-bold py-2 px-4 rounded mx-auto text-center">
+                    <a href="https://silingcorp.com.pe/documents/BROCHURE-SILING-CORP.pdf" target="_blank" className="inline-block bg-teal-500 text-white font-bold py-2 px-4 rounded mx-auto text-center">
                     Brochure
                     </a>
                 </div>

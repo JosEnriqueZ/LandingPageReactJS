@@ -17,7 +17,8 @@ export default function Footer(){
 
                         <div className="lg:col-span-5 text-center mt-6 md:mt-0">
                             <p className="mb-0">© {new Date().getFullYear()} Hecho por Silingcorp </p>
-                            <p>RUC: 20904567433</p>
+                            <p>RUC: 20612728420 | INVERSIONES MULTIPLES SAN ISIDRO DE LLUTA INGENIEROS CORP S.A.C.</p>
+                            <p></p>
                         </div>
 
                         <ul className="lg:col-span-4 list-none md:text-end text-center mt-6 md:mt-0">
