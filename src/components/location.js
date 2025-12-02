@@ -11,7 +11,7 @@ export default function Location() {
           <div className="flex justify-center w-full h-48 md:h-[25vh] md:w-full lg:h-[30vh] lg:w-[50%] relative">
             <div className="w-full h-full border-0">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d491307.3440214395!2d-72.23031947708112!3d-15.83363773922691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9141f6ecdc90dbcd%3A0x35fe3e38d4c7862e!2sDistrito%20de%20Lluta%2004115!5e0!3m2!1ses-419!2spe!4v1717711588917!5m2!1ses-419!2spe"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d122512.67016647298!2d-72.2714134!3d-16.3474042!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91419b002cee97cf%3A0xadf3029820729702!2sAsociaci%C3%B3n%20de%20Ganaderos%20de%20La%20Colina!5e0!3m2!1ses!2spe!4v1764701185575!5m2!1ses!2spe"
                 className="w-full h-full rounded-xl"
                 style={{ border: 0 }}
                 allowFullScreen=""
@@ -29,9 +29,9 @@ export default function Location() {
               <p className="text-white text-xl">Calle Unión S/N a tres cuadras de la plaza principal</p>
 
               <p className="text-white text-lg  mt-8"><strong>Oficina  de operaciones Majes:</strong></p>
-              <p className="text-white text-xl"><strong>La Colina E13, Carretera a Lluta, Distrito de Majes</strong> 
+              <p className="text-white text-xl"><strong>Asoc. Ganaderos, Carretera a Lluta, Distrito de Majes</strong>
               </p>
-              <p className="text-white text-xl">Provincia de Caylloma</p>
+              <p className="text-white text-xl">Provincia de Caylloma</p>
             </div>
 
           </div>
