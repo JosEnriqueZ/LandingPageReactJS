@@ -1,7 +1,6 @@
 import React from "react";
 
 import NavLight from "../components/navLight";
-import About from "../components/about";
 import Details from "../components/details";
 import Footer from "../components/footer";
 import Switcher from "../components/switcher";

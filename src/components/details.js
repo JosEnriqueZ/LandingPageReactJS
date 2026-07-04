@@ -99,7 +99,7 @@ export default function Details() {
                                         .filter(item => item.id === undefined)
                                         .map((item, index) => (
                                             <div key={index}>
-                                                <img src={item.img || item.image} className="w-full h-auto" />
+                                                <img src={item.img || item.image} alt={item.title || ""} className="w-full h-auto" />
                                             </div>
                                         ))
                                 ) : (
@@ -107,12 +107,12 @@ export default function Details() {
                                         .filter(item => item.id === parseInt(id))
                                         .map((item) => (
                                             <div key={item.id}>
-                                                <img src={item.img || item.image} className="w-full h-auto" />
+                                                <img src={item.img || item.image} alt={item.title || ""} className="w-full h-auto" />
                                             </div>
                                         ))
                                 )
                             ) : (
-                                <img src={content.img || content.image} className="w-full h-auto" />
+                                <img src={content.img || content.image} alt={content.title || ""} className="w-full h-auto" />
                             )}
                         </div>
                     </div>

@@ -10,7 +10,6 @@ export default function NavLight() {
   const location = useLocation();
   const isHome = location.pathname === "/";
 
-  console.log(isHome);
   let [scroll, setScroll] = useState(false);
   let [manu, setManu] = useState(false);
 
